@@ -12,65 +12,59 @@ const response = require('./lib/response');
 const app = express(),
     path = {
         url : 'https://tuimeizi.cn', //主URL
-        output: './res/output/', //图片输出文件夹
-        source: './res/source/', //图片源文件夹
-        public: './public/', //首页静态文件夹
-        config: './config/'  //配置相关文件
+        output: './res/output', //图片输出文件夹
+        source: './res/source', //图片源文件夹
+        public: './public', //首页静态文件夹
+        config: './config'  //配置相关文件
     };
 
 app.use('/', express.static('public'));
 
 app.get('/random', function (req, res) {
-    response.start({
+    response({
         path,
         req,
-        res,
-        pos : 'r'
+        res
     })
 });
 
 app.get('/pure', function (req, res) {
-    response.start({
+    response({
         path,
         req,
-        res,
-        pos : 'p'
+        res
     })
 });
 
 app.get('/coser', function (req, res) {
-    response.start({
+    response({
         path,
         req,
-        res,
-        pos : 'c'
+        res
     })
 });
 
 app.get('/sexy', function (req, res) {
-    response.start({
+    response({
         path,
         req,
-        res,
-        pos : 's'
+        res
     })
 });
 
 app.get('/games', function (req, res) {
-    response.start({
+    response({
         path,
         req,
-        res,
-        pos : 'g'
+        res
     })
 });
 
 app.get('/logo', function (req, res) {
-    response.start({
+    response({
         path,
         req,
-        res,
-        pos : 'l'
+        res
     })
 });
 
