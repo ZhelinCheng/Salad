@@ -6,9 +6,10 @@
 
 const express = require('express');
 const response = require('./lib/response');
+const arrangement = require('./lib/arrangement');
+const upload = require('jquery-file-upload-middleware');
+const os = require('os');
 
-
-/*const upload = require('jquery-file-upload-middleware');*/
 const app = express(),
     path = {
         url : 'https://tuimeizi.cn', //主URL
@@ -17,6 +18,13 @@ const app = express(),
         public: './public', //首页静态文件夹
         config: './config'  //配置相关文件
     };
+
+//初始化时间检测
+arrangement.start({
+    output : './res/output',
+    logs : './logs/delete.log',
+    os : os.platform()
+});
 
 app.use('/', express.static('public'));
 
@@ -70,23 +78,34 @@ app.get('/logo', function (req, res) {
 
 
 //图片上传相关
-/*upload.configure({
+upload.configure({
     uploadDir: __dirname + '/public/uploads/',
     uploadUrl: '/uploads'
 });
 
 /// Redirect all to home except post
 app.get('/api/upload', function( req, res ){
-    response.redirect('/');
+    res.redirect('/');
 });
 
 app.put('/api/upload', function( req, res ){
-    response.redirect('/');
+    res.redirect('/');
 });
 
 app.delete('/api/upload', function( req, res ){
-    response.redirect('/');
-});*/
+    res.redirect('/');
+});
+
+app.use('/api/upload', function(req, res, next){
+    upload.fileHandler({
+        uploadDir: function () {
+            return __dirname + '/public/uploads/'
+        },
+        uploadUrl: function () {
+            return '/uploads'
+        }
+    })(req, res, next);
+});
 
 app.use('/output', express.static('res/output'));
 
