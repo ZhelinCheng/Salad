@@ -7,8 +7,8 @@
 const express = require('express');
 const response = require('./lib/response');
 const arrangement = require('./lib/arrangement');
-const upload = require('jquery-file-upload-middleware');
 const os = require('os');
+const upload = require('./lib/upload');
 
 const app = express(),
     path = {
@@ -78,12 +78,6 @@ app.get('/logo', function (req, res) {
 
 
 //图片上传相关
-upload.configure({
-    uploadDir: __dirname + '/public/uploads/',
-    uploadUrl: '/uploads'
-});
-
-/// Redirect all to home except post
 app.get('/api/upload', function( req, res ){
     res.redirect('/');
 });
@@ -97,14 +91,7 @@ app.delete('/api/upload', function( req, res ){
 });
 
 app.use('/api/upload', function(req, res, next){
-    upload.fileHandler({
-        uploadDir: function () {
-            return __dirname + '/public/uploads/'
-        },
-        uploadUrl: function () {
-            return '/uploads'
-        }
-    })(req, res, next);
+    upload.start(req, res, next)
 });
 
 app.use('/output', express.static('res/output'));
