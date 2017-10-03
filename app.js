@@ -20,7 +20,7 @@ const app = express(),
         config: './config'  //配置相关文件
     };
 
-
+//日志监听
 logs.start(app);
 
 //初始化时间检测
