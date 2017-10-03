@@ -9,6 +9,7 @@ const response = require('./lib/response');
 const arrangement = require('./lib/arrangement');
 const os = require('os');
 const upload = require('./lib/upload');
+const logs = require('./lib/logs');
 
 const app = express(),
     path = {
@@ -19,11 +20,14 @@ const app = express(),
         config: './config'  //配置相关文件
     };
 
+
+logs.start(app);
+
 //初始化时间检测
 arrangement.start({
     output : './res/output',
     logs : './logs/delete.log',
-    os : os.platform()
+    os : os.type()
 });
 
 app.use('/', express.static('public'));
