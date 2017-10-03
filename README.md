@@ -7,9 +7,9 @@
 ## 文档
 
 ### 使用
-`yarn install`
+    yarn install
 
-`node app.js`
+    node app.js
 
 ### 分类
 

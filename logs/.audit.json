@@ -29,6 +29,11 @@
             "date": 1507023122196,
             "name": "./logs/access-2017100317.log.3",
             "hash": "a2a9713a85fe98efde456f9333cc028e"
+        },
+        {
+            "date": 1507025700099,
+            "name": "./logs/access-2017100318.log",
+            "hash": "a4b25ba1e86708cc8c797106e2dbce5d"
         }
     ]
 }
