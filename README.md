@@ -7,7 +7,12 @@
 ## 文档
 
 ### 使用
+
+安装：
+
     yarn install
+
+启动：
 
     node app.js
 
