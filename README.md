@@ -43,15 +43,16 @@ coser图片
 * /public/ 放置首页等静态文件
 * /lib/ 放置核心逻辑
 * /config/ 黑名单等配置文件
-* /logs 日志目录
+* /logs/ 日志目录
 
 ## 文件说明
 * /app.js 程序入口及路由文件
 * /lib/arrangement.js 历史文件删除
 * /lib/error.js 错误处理
 * /lib/handle.js 图片处理
-* /lib/security.js 基础防御
+* /lib/security.js 基础防御逻辑
 * /lib/tools.js 工具类
+* /lib/logs.js 日志生成逻辑
 
 ## 更新日志
 
