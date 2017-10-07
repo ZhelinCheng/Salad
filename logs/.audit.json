@@ -1,7 +1,7 @@
 {
     "keep": {
         "days": true,
-        "amount": 10
+        "amount": 7
     },
     "auditLog": "./logs/.audit.json",
     "files": [
@@ -34,6 +34,51 @@
             "date": 1507025700099,
             "name": "./logs/access-2017100318.log",
             "hash": "a4b25ba1e86708cc8c797106e2dbce5d"
+        },
+        {
+            "date": 1507392859405,
+            "name": "./logs/2017100800.log",
+            "hash": "186dd4914236705ce235147928f693ed"
+        },
+        {
+            "date": 1507392882442,
+            "name": "./logs/2017100800.log.1",
+            "hash": "778d6e8955a9c8d78e84f35298234c18"
+        },
+        {
+            "date": 1507393081291,
+            "name": "./logs/2017100800.log.2",
+            "hash": "54c6cadafc441bc22801816074cd452e"
+        },
+        {
+            "date": 1507393098765,
+            "name": "./logs/2017100800.log.3",
+            "hash": "09da061dd67fc6ef0e3f6ccc82815394"
+        },
+        {
+            "date": 1507393374169,
+            "name": "./logs/2017100800.log.4",
+            "hash": "ada638caa60df95a219440f56e7d5c69"
+        },
+        {
+            "date": 1507394194559,
+            "name": "./logs/2017100800.log.5",
+            "hash": "28e9d93d22edeb88724e43cc7be47b99"
+        },
+        {
+            "date": 1507394247815,
+            "name": "./logs/2017100800.log.6",
+            "hash": "45eb144d45d555708ccd6141ed79720a"
+        },
+        {
+            "date": 1507394284958,
+            "name": "./logs/2017100800.log.7",
+            "hash": "bf74c201344d2481b18799dab3b1c956"
+        },
+        {
+            "date": 1507394886411,
+            "name": "./logs/2017100800.log.8",
+            "hash": "f176e03f9ac250731670eee0c70141d2"
         }
     ]
 }
