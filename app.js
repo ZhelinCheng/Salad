@@ -100,4 +100,4 @@ app.use('/api/upload', function(req, res, next){
 
 app.use('/output', express.static('res/output'));
 
-app.listen(3001);
+app.listen(3000);
