@@ -9,7 +9,7 @@ const response = require('./lib/response');
 const arrangement = require('./lib/arrangement');
 const os = require('os');
 const upload = require('./lib/upload');
-const logs = require('./lib/logs');
+//const logs = require('./lib/logs');
 
 const app = express(),
     path = {
@@ -21,7 +21,7 @@ const app = express(),
     };
 
 //日志监听
-logs.start(app);
+//logs.start(app);
 
 //初始化时间检测
 arrangement.start({
