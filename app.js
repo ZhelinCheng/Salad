@@ -17,7 +17,8 @@ const app = express(),
         output: './res/output', //图片输出文件夹
         source: './res/source', //图片源文件夹
         public: './public', //首页静态文件夹
-        config: './config'  //配置相关文件
+        config: './config',  //配置相关文件
+        resources : './resources'  //资源文件夹
     };
 
 //日志监听
