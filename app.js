@@ -14,11 +14,11 @@ const upload = require('./lib/upload');
 const app = express(),
     path = {
         url : 'https://tuimeizi.cn', //主URL
-        output: './res/output', //图片输出文件夹
-        source: './res/source', //图片源文件夹
+        output: './resources/output', //图片输出文件夹
+        source: './resources/source', //图片源文件夹
+        font: './resources/font',     //文字资源文件
         public: './public', //首页静态文件夹
-        config: './config',  //配置相关文件
-        resources : './resources'  //资源文件夹
+        config: './config'  //配置相关文件
     };
 
 //日志监听
