@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc93867f-5c0c-488e-b144-785b414ae06b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/output/pure/3915235c6b54468816bc67e81ffc1cd9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/output/pure/4045ce05fdde79bf6b3c3bfd766d3dd0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/output/pure/4207debb0d9b609103fa1140ab6d6458.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/output/pure/75e44a9e96031367a8113f36b0388df2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/output/pure/c13fda7764327841ca7f4b510bbed67c.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/handle.js" afterPath="$PROJECT_DIR$/lib/handle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/h/coser/295558087204.jpg" afterPath="$PROJECT_DIR$/resources/source/h/coser/295558087204.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/h/coser/295558093626.jpg" afterPath="$PROJECT_DIR$/resources/source/h/coser/295558093626.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/h/coser/703-1FF4144027.jpg" afterPath="$PROJECT_DIR$/resources/source/h/coser/703-1FF4144027.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/h/coser/8729a648gy1ffisjsxur1j21f01w0e81.jpg" afterPath="$PROJECT_DIR$/resources/source/h/coser/8729a648gy1ffisjsxur1j21f01w0e81.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/h/coser/8729a648gy1fh19ut6vmaj21f01w0u0z.jpg" afterPath="$PROJECT_DIR$/resources/source/h/coser/8729a648gy1fh19ut6vmaj21f01w0u0z.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/h/coser/IMG_1998.JPG" afterPath="$PROJECT_DIR$/resources/source/h/coser/IMG_1998.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/h/pure/IMG_2065.JPG" afterPath="$PROJECT_DIR$/resources/source/h/pure/IMG_2065.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/h/pure/IMG_2094.JPG" afterPath="$PROJECT_DIR$/resources/source/h/pure/IMG_2094.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/h/pure/f0f928b06b549ddc22c2f4a680268e9ef4b5e42da75a-Wwn6kJ.jpg" afterPath="$PROJECT_DIR$/resources/source/h/pure/f0f928b06b549ddc22c2f4a680268e9ef4b5e42da75a-Wwn6kJ.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/h/sexy/111eb30978e8a3585a0c21982f143aec51cd95804030f-GSSvQv.jpg" afterPath="$PROJECT_DIR$/resources/source/h/sexy/111eb30978e8a3585a0c21982f143aec51cd95804030f-GSSvQv.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/h/sexy/s1.jpg" afterPath="$PROJECT_DIR$/resources/source/h/sexy/s1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/h/sexy/s2.jpg" afterPath="$PROJECT_DIR$/resources/source/h/sexy/s2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/h/sexy/s3.jpg" afterPath="$PROJECT_DIR$/resources/source/h/sexy/s3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/w/coser/4F347705-33E3-45CF-968E-EBB2570E0F6B.jpeg" afterPath="$PROJECT_DIR$/resources/source/w/coser/4F347705-33E3-45CF-968E-EBB2570E0F6B.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/w/coser/A4FB2CAB-BEB3-4B49-A01A-247C7D509C7B.jpeg" afterPath="$PROJECT_DIR$/resources/source/w/coser/A4FB2CAB-BEB3-4B49-A01A-247C7D509C7B.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/w/coser/BD239E09-E150-44D2-BACA-2EC75FA2FFF6.jpeg" afterPath="$PROJECT_DIR$/resources/source/w/coser/BD239E09-E150-44D2-BACA-2EC75FA2FFF6.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/w/logo/111.jpg" afterPath="$PROJECT_DIR$/resources/source/w/logo/111.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/w/logo/3257-1FHGF2370-L.jpg" afterPath="$PROJECT_DIR$/resources/source/w/logo/3257-1FHGF2370-L.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/w/logo/3260-1FGF95QU21.jpg" afterPath="$PROJECT_DIR$/resources/source/w/logo/3260-1FGF95QU21.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/w/pure/DE32281C-A88E-43FB-8429-1FFA7CB0622A.jpeg" afterPath="$PROJECT_DIR$/resources/source/w/pure/DE32281C-A88E-43FB-8429-1FFA7CB0622A.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/w/pure/IMG_2089.JPG" afterPath="$PROJECT_DIR$/resources/source/w/pure/IMG_2089.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/w/pure/IMG_2106.JPG" afterPath="$PROJECT_DIR$/resources/source/w/pure/IMG_2106.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/source/w/sexy/2.jpg" afterPath="$PROJECT_DIR$/resources/source/w/sexy/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/wryh.ttf" afterPath="$PROJECT_DIR$/resources/font/wryh.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,22 +19,22 @@
     <splitter split-orientation="horizontal" split-proportion="0.47368422">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="361">
-                  <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+                  <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="95">
-                    <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                  <first_editor relative-caret-position="399">
+                    <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -160,7 +130,7 @@
             <entry file="file://$PROJECT_DIR$/lib/handle.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="475">
-                  <caret line="151" column="42" lean-forward="true" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
+                  <caret line="151" column="42" lean-forward="false" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
                   <folding>
                     <element signature="n#!!block;n#handle#0;n#handle#0" expanded="false" />
                   </folding>
@@ -221,12 +191,12 @@
         <option value="$PROJECT_DIR$/config/ip.txt" />
         <option value="$PROJECT_DIR$/lib/logs.js" />
         <option value="$PROJECT_DIR$/lib/arrangement.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/error.js" />
         <option value="$PROJECT_DIR$/lib/response.js" />
         <option value="$PROJECT_DIR$/lib/security.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/lib/handle.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -354,12 +324,12 @@
       <workItem from="1508056815310" duration="9196000" />
       <workItem from="1509028274774" duration="1921000" />
       <workItem from="1509277918699" duration="212000" />
-      <workItem from="1509278230710" duration="6740000" />
+      <workItem from="1509278230710" duration="7522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81460000" />
+    <option name="totallyTimeSpent" value="82242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -604,22 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/response.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -663,7 +617,7 @@
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -671,10 +625,26 @@
     <entry file="file://$PROJECT_DIR$/lib/handle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="151" column="42" lean-forward="true" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
+          <caret line="151" column="42" lean-forward="false" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
           <folding>
             <element signature="n#!!block;n#handle#0;n#handle#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="399">
+            <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
