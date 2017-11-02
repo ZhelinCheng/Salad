@@ -26,7 +26,7 @@ const app = express(),
 
 //初始化时间检测
 arrangement.start({
-    output : './res/output',
+    output : path.output,
     logs : './logs/delete.log',
     os : os.type()
 });
