@@ -10,7 +10,7 @@
 
 ### 使用
 
-First download and install [GraphicsMagick](http://www.graphicsmagick.org/) or [ImageMagick](http://www.imagemagick.org/). In Mac OS X, you can simply use Homebrew and do:
+First download and install [GraphicsMagick](http://www.graphicsmagick.org/) or [ImageMagick](http://www.imagemagick.org/).
 
 安装：
 
@@ -67,6 +67,7 @@ coser图片
 
 ### v2.2.3
 - 修复一个图片生成出现的意外BUG
+- 其他优化
 
 ### v2.2.2
 - 增加中文字体
