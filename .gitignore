@@ -1,5 +1,6 @@
-/.idea/
-.idea
+.idea/*
+.idea*
+\.idea*
 .git/
 node_modules/
 public/

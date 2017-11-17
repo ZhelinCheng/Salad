@@ -1,6 +1,6 @@
 {
   "name": "Node-Position",
-  "version": "1.0.0",
+  "version": "2.2.3",
   "description": "占位图生成",
   "main": "app.js",
   "author": "zhelinCheng",
@@ -8,13 +8,14 @@
   "dependencies": {
     "express": "^4.15.2",
     "gm": "^1.23.0",
-    "md5": "^2.2.1"
-  },
-  "devDependencies": {
+    "md5": "^2.2.1",
     "cron": "^1.2.1",
     "file-stream-rotator": "^0.2.0",
     "jquery-file-upload-middleware": "^0.1.8",
     "morgan": "^1.9.0",
     "shelljs": "^0.7.8"
+  },
+  "devDependencies": {
+
   }
 }

@@ -10,6 +10,8 @@
 
 ### 使用
 
+First download and install [GraphicsMagick](http://www.graphicsmagick.org/) or [ImageMagick](http://www.imagemagick.org/). In Mac OS X, you can simply use Homebrew and do:
+
 安装：
 
     yarn install
@@ -21,7 +23,7 @@
 ### 分类
 
 #### /random 
-随机图片，将从/pure及/coser中选取图片
+随机图片，将从/pure及/coser中选取图片（伪随机，通过传递的宽高选择）
 
 #### /pure
 清纯图片
@@ -62,6 +64,9 @@ coser图片
 * /lib/logs.js 日志生成逻辑
 
 ## 更新日志
+
+### v2.2.3
+- 修复一个图片生成出现的意外BUG
 
 ### v2.2.2
 - 增加中文字体
