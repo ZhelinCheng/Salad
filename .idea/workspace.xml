@@ -4,19 +4,6 @@
     <list default="true" id="cc93867f-5c0c-488e-b144-785b414ae06b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change beforePath="$PROJECT_DIR$/lib/handle.js" afterPath="$PROJECT_DIR$/lib/handle.js" />
-      <change beforePath="$PROJECT_DIR$/lib/response.js" afterPath="$PROJECT_DIR$/lib/response.js" />
-      <change beforePath="$PROJECT_DIR$/lib/security.js" afterPath="$PROJECT_DIR$/lib/security.js" />
-      <change beforePath="$PROJECT_DIR$/lib/tools.js" afterPath="$PROJECT_DIR$/lib/tools.js" />
-      <change beforePath="$PROJECT_DIR$/logs/.audit.json" afterPath="$PROJECT_DIR$/logs/.audit.json" />
-      <change beforePath="$PROJECT_DIR$/resources/output/coser/2700bc9804e8a853d3d2aab6ca0c4acf.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/output/coser/8e9b2101915ef589046fa3b2bf47353e.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/output/pure/0c624f6338f3daf07d318649f7ce46ab.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/output/pure/0d802feb5cbb58bbf5dc655a55294bee.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/output/pure/13e2565bc42d31b9dbdce6247576f33a.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/output/pure/893852f4fb3dd77c9efaf38d00ee8753.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/output/pure/af0194b19566d97236775d2ec60ec552.jpg" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,10 +16,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.20779221">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="304">
@@ -42,11 +29,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="response.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="response.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/response.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-452">
-                  <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+                <state relative-caret-position="156">
+                  <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -76,12 +63,27 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="security.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="security.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/security.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="232">
                   <caret line="112" column="93" lean-forward="false" selection-start-line="112" selection-start-column="93" selection-end-line="112" selection-end-column="93" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="95">
+                    <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+                    <folding />
+                  </first_editor>
+                  <second_editor>
+                    <js_state />
+                  </second_editor>
                 </state>
               </provider>
             </entry>
@@ -131,8 +133,8 @@
       <find>_IMG_OBJ</find>
       <find>handle</find>
       <find>source</find>
-      <find>isParameter</find>
       <find>s=f</find>
+      <find>isParameter</find>
     </findStrings>
     <dirStrings>
       <dir>E:\GitHub\Node-Position</dir>
@@ -161,12 +163,12 @@
         <option value="$PROJECT_DIR$/config/setting.json" />
         <option value="$PROJECT_DIR$/lib/error.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/tools.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/lib/handle.js" />
-        <option value="$PROJECT_DIR$/lib/response.js" />
         <option value="$PROJECT_DIR$/lib/security.js" />
+        <option value="$PROJECT_DIR$/lib/response.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -314,12 +316,12 @@
       <workItem from="1514620889989" duration="207000" />
       <workItem from="1514634023116" duration="1839000" />
       <workItem from="1516441909775" duration="26000" />
-      <workItem from="1516441957506" duration="14340000" />
+      <workItem from="1516441957506" duration="14614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115925000" />
+    <option name="totallyTimeSpent" value="116199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -569,37 +571,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tools.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -615,18 +590,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/response.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-452">
-          <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/security.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="112" column="93" lean-forward="false" selection-start-line="112" selection-start-column="93" selection-end-line="112" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/response.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
           <folding />
         </state>
       </provider>

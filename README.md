@@ -3,10 +3,10 @@
 
 ## 说明
 
-默认关闭了日志功能，因为有内存溢出的情况。
+默认关闭了日志功能，因为有内存溢出的情况，如需开启，增加--log参数即可。
 下一步准备使用Redis存储图片源图片数据。
 
-    使用：http://127.0.0.1:3000/random?w={width}&h={height}&t={text}&o={number}&s={boolean}
+    使用：http://127.0.0.1:3000/random?w={width}&h={height}&t={text}&o={number}&s={false||0}
 
 ## 文档
 
@@ -18,7 +18,11 @@
 
     yarn install
 
-启动：
+启动（开发）：
+
+    nodemon app.js --dev
+
+启动（生产）:
 
     node app.js
 
