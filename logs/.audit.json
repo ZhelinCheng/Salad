@@ -6,134 +6,14 @@
     "auditLog": "./logs/.audit.json",
     "files": [
         {
-            "date": 1507015788592,
-            "name": "./logs/access-2017100315.log",
-            "hash": "64f20489a245fecf2e7cd92ed25bc314"
+            "date": 1516442956185,
+            "name": "./logs/2018012018.log",
+            "hash": "661679799d71e31f615440e62650c906"
         },
         {
-            "date": 1507022950043,
-            "name": "./logs/access-2017100317.log",
-            "hash": "382161d185344aeff85f35afbf990dc2"
-        },
-        {
-            "date": 1507023019471,
-            "name": "./logs/access-2017100317.log.1",
-            "hash": "e79e1296f32e5aa156f6ea4997c3e8d5"
-        },
-        {
-            "date": 1507023055782,
-            "name": "./logs/access-2017100317.log.2",
-            "hash": "9e52511d619cd94ca14572266ed0e572"
-        },
-        {
-            "date": 1507023122196,
-            "name": "./logs/access-2017100317.log.3",
-            "hash": "a2a9713a85fe98efde456f9333cc028e"
-        },
-        {
-            "date": 1507025700099,
-            "name": "./logs/access-2017100318.log",
-            "hash": "a4b25ba1e86708cc8c797106e2dbce5d"
-        },
-        {
-            "date": 1507392859405,
-            "name": "./logs/2017100800.log",
-            "hash": "186dd4914236705ce235147928f693ed"
-        },
-        {
-            "date": 1507392882442,
-            "name": "./logs/2017100800.log.1",
-            "hash": "778d6e8955a9c8d78e84f35298234c18"
-        },
-        {
-            "date": 1507393081291,
-            "name": "./logs/2017100800.log.2",
-            "hash": "54c6cadafc441bc22801816074cd452e"
-        },
-        {
-            "date": 1507393098765,
-            "name": "./logs/2017100800.log.3",
-            "hash": "09da061dd67fc6ef0e3f6ccc82815394"
-        },
-        {
-            "date": 1507393374169,
-            "name": "./logs/2017100800.log.4",
-            "hash": "ada638caa60df95a219440f56e7d5c69"
-        },
-        {
-            "date": 1507394194559,
-            "name": "./logs/2017100800.log.5",
-            "hash": "28e9d93d22edeb88724e43cc7be47b99"
-        },
-        {
-            "date": 1507394247815,
-            "name": "./logs/2017100800.log.6",
-            "hash": "45eb144d45d555708ccd6141ed79720a"
-        },
-        {
-            "date": 1507394284958,
-            "name": "./logs/2017100800.log.7",
-            "hash": "bf74c201344d2481b18799dab3b1c956"
-        },
-        {
-            "date": 1507394886411,
-            "name": "./logs/2017100800.log.8",
-            "hash": "f176e03f9ac250731670eee0c70141d2"
-        },
-        {
-            "date": 1507440540739,
-            "name": "./logs/2017100813.log",
-            "hash": "156dccb08182ce35877c05a14a8ca129"
-        },
-        {
-            "date": 1507440554280,
-            "name": "./logs/2017100813.log.1",
-            "hash": "20facb15b3cab201bff4a25a4c1bc079"
-        },
-        {
-            "date": 1507440605428,
-            "name": "./logs/2017100813.log.2",
-            "hash": "51f26079460714f5da2d91216afe10d0"
-        },
-        {
-            "date": 1507440633145,
-            "name": "./logs/2017100813.log.3",
-            "hash": "d8b1f3afd88b7c97f46b8badc05927fd"
-        },
-        {
-            "date": 1507440914385,
-            "name": "./logs/2017100813.log.4",
-            "hash": "af5fb72084d607a2a948be1f657da141"
-        },
-        {
-            "date": 1507440926513,
-            "name": "./logs/2017100813.log.5",
-            "hash": "74485924ab48f066d78de7ca0c03979c"
-        },
-        {
-            "date": 1507440949816,
-            "name": "./logs/2017100813.log.6",
-            "hash": "fe58145ed207c5466c4040392b8b3270"
-        },
-        {
-            "date": 1507559375214,
-            "name": "./logs/2017100922.log",
-            "hash": "d6e176f71af104d77e08e3f4664cf67f"
-        },
-        {
-            "date": 1507559482794,
-            "name": "./logs/2017100922.log.1",
-            "hash": "f0558a38a45d3508fa560f8ebbd2bdb6"
-        },
-        {
-            "date": 1507559622421,
-            "name": "./logs/2017100922.log.2",
-            "hash": "90a1b0754a132a09eaf15645ab3e2bd0"
-        },
-        {
-            "date": 1507559754659,
-            "name": "./logs/2017100922.log.3",
-            "hash": "8f5afda6b723b5c44ca108f8bbab388c"
+            "date": 1516442975336,
+            "name": "./logs/2018012018.log.1",
+            "hash": "e960787fd867c918226f80deb6ece595"
         }
     ]
 }

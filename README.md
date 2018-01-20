@@ -2,15 +2,17 @@
 一个十分养眼的占位图Node.js程序。
 
 ## 说明
-默认关闭了日志功能，因为有内存溢出的情况。
 
-    使用：http://127.0.0.1:3000/random?w={width}&h={height}&t={text}
+默认关闭了日志功能，因为有内存溢出的情况。
+下一步准备使用Redis存储图片源图片数据。
+
+    使用：http://127.0.0.1:3000/random?w={width}&h={height}&t={text}&o={number}&s={boolean}
 
 ## 文档
 
 ### 使用
 
-First download and install [GraphicsMagick](http://www.graphicsmagick.org/) or [ImageMagick](http://www.imagemagick.org/).
+使用前请安装 [GraphicsMagick](http://www.graphicsmagick.org/) 或 [ImageMagick](http://www.imagemagick.org/).
 
 安装：
 
@@ -44,7 +46,7 @@ coser图片
 * `w` 参数（必须）：需要的图片宽度，不需要带单位
 * `h` 参数（必须）：需要的图片高度，不需要带单位
 * `t` 参数（可选）：需要设置的文字，支持中英文
-* `s` 参数（可选）：是否显示图片上的文字，默认显示。可设置参数`false`
+* `s` 参数（可选）：是否显示图片上的文字，默认显示。可设置参数`false`或`0`
 * `o` 参数（可选）：图片顺序
 
 ## 目录说明
@@ -64,6 +66,10 @@ coser图片
 * /lib/logs.js 日志生成逻辑
 
 ## 更新日志
+
+### v2.2.7
+- 增加一个参数安全判断
+- 其他优化
 
 ### v2.2.4
 - 修复一个图片生成出现的意外BUG
