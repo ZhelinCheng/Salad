@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc93867f-5c0c-488e-b144-785b414ae06b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/setting.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change beforePath="$PROJECT_DIR$/lib/arrangement.js" afterPath="$PROJECT_DIR$/lib/arrangement.js" />
+      <change beforePath="$PROJECT_DIR$/lib/error.js" afterPath="$PROJECT_DIR$/lib/error.js" />
+      <change beforePath="$PROJECT_DIR$/lib/handle.js" afterPath="$PROJECT_DIR$/lib/handle.js" />
+      <change beforePath="$PROJECT_DIR$/lib/logs.js" afterPath="$PROJECT_DIR$/lib/logs.js" />
+      <change beforePath="$PROJECT_DIR$/lib/response.js" afterPath="$PROJECT_DIR$/lib/response.js" />
       <change beforePath="$PROJECT_DIR$/lib/security.js" afterPath="$PROJECT_DIR$/lib/security.js" />
+      <change beforePath="$PROJECT_DIR$/lib/tools.js" afterPath="$PROJECT_DIR$/lib/tools.js" />
+      <change beforePath="$PROJECT_DIR$/lib/upload.js" afterPath="$PROJECT_DIR$/lib/upload.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +29,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.43919715">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+                <state relative-caret-position="475">
+                  <caret line="40" column="57" lean-forward="false" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="setting.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/setting.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="209">
+                  <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -39,11 +59,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="tools.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="tools.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/tools.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="513">
-                  <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -53,21 +73,31 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="security.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="security.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/security.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="95" column="84" lean-forward="false" selection-start-line="95" selection-start-column="84" selection-end-line="95" selection-end-column="84" />
+                <state relative-caret-position="45">
+                  <caret line="94" column="44" lean-forward="true" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="upload.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/upload.js">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="399">
-                  <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+                <state relative-caret-position="525">
+                  <caret line="100" column="10" lean-forward="false" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="logs.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/logs.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="152">
+                  <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
                   <folding />
                 </state>
               </provider>
@@ -76,21 +106,34 @@
           <file leaf-file-name="handle.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/handle.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-76">
-                  <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="23" />
+                <state relative-caret-position="1299">
+                  <caret line="150" column="34" lean-forward="false" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="34" />
                   <folding>
-                    <element signature="n#!!block;n#cropPos#0;n#handle#0" expanded="false" />
+                    <element signature="n#!!block;n#cropPos#0;n#Handle#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/package.json">
+          <file leaf-file-name="response.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/response.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="12" />
+                <state relative-caret-position="1144">
+                  <caret line="64" column="25" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="25" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="error.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/error.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="456">
+                  <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+                  <folding>
+                    <marker date="1519637247730" expanded="true" signature="92:320" ph="..." />
+                    <marker date="1519637247730" expanded="true" signature="341:595" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -102,8 +145,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -113,7 +156,6 @@
       <find>obj.width</find>
       <find>delete.log</find>
       <find>obj.height</find>
-      <find>config</find>
       <find>func</find>
       <find>output</find>
       <find>exists</find>
@@ -129,8 +171,16 @@
       <find>s=f</find>
       <find>isParameter</find>
       <find>imageMagick</find>
-      <find>console</find>
+      <find>path</find>
+      <find>_allowUa</find>
+      <find>readIp</find>
+      <find>config</find>
+      <find>obj.par</find>
+      <find>isBrowser</find>
+      <find>obj.path</find>
+      <find>logs</find>
       <find>console.log</find>
+      <find>console</find>
     </findStrings>
     <dirStrings>
       <dir>E:\GitHub\Node-Position</dir>
@@ -148,23 +198,26 @@
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/lib/delete.js" />
         <option value="$PROJECT_DIR$/config/delete.log" />
-        <option value="$PROJECT_DIR$/lib/upload.js" />
         <option value="$PROJECT_DIR$/lib/access.log" />
         <option value="$PROJECT_DIR$/logs/1.log" />
         <option value="$PROJECT_DIR$/config/ip.txt" />
-        <option value="$PROJECT_DIR$/lib/logs.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/lib/arrangement.js" />
         <option value="$PROJECT_DIR$/config/setting.json" />
-        <option value="$PROJECT_DIR$/lib/error.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/lib/tools.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/lib/response.js" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/lib/handle.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/lib/tools.js" />
+        <option value="$PROJECT_DIR$/lib/handle.js" />
+        <option value="$PROJECT_DIR$/lib/upload.js" />
+        <option value="$PROJECT_DIR$/config/config.json.js" />
+        <option value="$PROJECT_DIR$/config/config.json" />
+        <option value="$PROJECT_DIR$/lib/arrangement.js" />
+        <option value="$PROJECT_DIR$/setting.json" />
+        <option value="$PROJECT_DIR$/lib/response.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/lib/logs.js" />
+        <option value="$PROJECT_DIR$/lib/error.js" />
         <option value="$PROJECT_DIR$/lib/security.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -204,8 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,10 +264,22 @@
               <item name="Node-Position" type="b2602c69:ProjectViewProjectNode" />
               <item name="Node-Position" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Node-Position" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Node-Position" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Node-Position" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Node-Position" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,15 +292,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\GitHub\Node-Position\resources\font" />
-      <recent name="E:\GitHub\Node-Position\resources" />
-      <recent name="E:\GitHub\Node-Position\config" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitHub\Node-Position\resources" />
       <recent name="E:\GitHub\Node-Position\lib" />
       <recent name="E:\GitHub\Node-Position" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\Node-Position" />
+      <recent name="E:\GitHub\Node-Position\resources\font" />
+      <recent name="E:\GitHub\Node-Position\resources" />
+      <recent name="E:\GitHub\Node-Position\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -298,17 +362,19 @@
       <workItem from="1516441909775" duration="26000" />
       <workItem from="1516441957506" duration="17155000" />
       <workItem from="1519626396060" duration="845000" />
-      <workItem from="1519627388671" duration="157000" />
+      <workItem from="1519627388671" duration="464000" />
+      <workItem from="1519633269917" duration="4151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119742000" />
+    <option name="totallyTimeSpent" value="124200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10748156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10748156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -338,18 +404,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/response.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/security.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -486,14 +545,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/output/coser/8e9b2101915ef589046fa3b2bf47353e.jpg" />
-    <entry file="file://$PROJECT_DIR$/lib/arrangement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="64" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/ip.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -502,17 +553,43 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/setting.json" />
-    <entry file="file://$PROJECT_DIR$/lib/error.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="133">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+    <entry file="file://$PROJECT_DIR$/lib/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/arrangement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -524,76 +601,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/lib/handle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="1299">
+          <caret line="150" column="34" lean-forward="false" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!block;n#cropPos#0;n#Handle#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/response.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="64" column="25" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/logs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        <state relative-caret-position="152">
+          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/response.js">
+    <entry file="file://$PROJECT_DIR$/lib/error.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="456">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <marker date="1519637247730" expanded="true" signature="92:320" ph="..." />
+            <marker date="1519637247730" expanded="true" signature="341:595" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/security.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="94" column="44" lean-forward="true" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="475">
+          <caret line="40" column="57" lean-forward="false" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/upload.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/handle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!block;n#cropPos#0;n#handle#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/security.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="95" column="84" lean-forward="false" selection-start-line="95" selection-start-column="84" selection-end-line="95" selection-end-column="84" />
+        <state relative-caret-position="525">
+          <caret line="100" column="10" lean-forward="false" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
           <folding />
         </state>
       </provider>

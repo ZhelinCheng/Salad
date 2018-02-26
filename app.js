@@ -9,83 +9,61 @@ const arrangement = require('./lib/arrangement');
 const os = require('os');
 const fs = require('fs');
 const upload = require('./lib/upload');
-
+const app = express();
 global.development = process.argv.indexOf('--dev') >= 0 ? true : null;
+
+//读取配置文件
+let setting = null;
+try {
+    setting = JSON.parse(fs.readFileSync("./setting.json", 'utf-8'));
+} catch (err) {
+    console.log('Error:' + '未找到配置文件\n' + err);
+    return;
+}
 
 //保存源文件位置数据
 global.images = {};
 
-const app = express(),
-    path = {
-        url: global.development ? 'http://localhost:3000' : 'https://tuimeizi.cn', //主URL
-        output: './resources/output', //图片输出文件夹
-        source: './resources/source', //图片源文件夹
-        font: './resources/font',     //文字资源文件
-        public: './public', //首页静态文件夹
-        config: './config'  //配置相关文件
-    };
-
 //日志监听
-if (process.argv.indexOf('--log') >= 0) {
+if (setting.logs.visit) {
     const logs = require('./lib/logs');
-    logs.start(app);
+    logs.start(app, setting);
 }
 
 //初始化时间检测
 arrangement.start({
-    output: path.output,
-    logs: './logs/delete.log',
+    output: setting.path.output,
+    logs: setting.logs.path + '/delete.log',
     os: os.type()
 });
+
+//let path = setting.path;//配置路径
+setting.path.url = global.development ? 'http://localhost:3000' : setting.url;
 
 app.use('/', express.static('public'));
 
 app.get('/random', function (req, res) {
-    response({
-        path,
-        req,
-        res
-    })
+    response({req, res, setting})
 });
 
 app.get('/pure', function (req, res) {
-    response({
-        path,
-        req,
-        res
-    })
+    response({req, res, setting})
 });
 
 app.get('/coser', function (req, res) {
-    response({
-        path,
-        req,
-        res
-    })
+    response({req, res, setting})
 });
 
 app.get('/sexy', function (req, res) {
-    response({
-        path,
-        req,
-        res
-    })
+    response({req, res, setting})
 });
 
 app.get('/games', function (req, res) {
-    response({
-        path,
-        req,
-        res
-    })
+    response({req, res, setting})
 });
 
 app.get('/logo', function (req, res) {
-    response({
-        path,
-        req,
-        res
-    })
+    response({req, res, setting})
 });
 
 
@@ -115,5 +93,4 @@ app.listen(3000, function () {
          const browser = require('child_process');
          //browser.exec('start ' + path.url + '/dev.html');
      }*/
-
 });
