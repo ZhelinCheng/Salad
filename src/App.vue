@@ -1,23 +1,50 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
+    <div id="app">
+        <el-container>
+            <el-header><topMenu/></el-header>
+            <el-container>
+                <el-aside width="241px">
+                    <sidebar/>
+                </el-aside>
+                <el-main>
+                    <router-view/>
+                </el-main>
+            </el-container>
+        </el-container>
+    </div>
 </template>
 
 <script>
+import sidebar from './components/sidebar'
+import topMenu from './components/topMenu'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    sidebar,
+    topMenu
+  }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="less">
+    html,body {
+        height: 100%;
+    }
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    #app {
+        height: 100%;
+    }
+    .el-container {
+        height: inherit;
+    }
+    .el-header {
+        padding: 0;
+    }
+    h1,h2,h3 {
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+    }
 </style>
