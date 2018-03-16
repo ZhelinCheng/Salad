@@ -1,7 +1,7 @@
 {
-  "name": "myproject",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
+  "name": "Node-Position",
+  "version": "3.0.0",
+  "description": "美女占位图，前端占位图生成，超强的占位图程序。",
   "author": "ZhelinCheng <chengzhelin@foxmail.com>",
   "private": true,
   "scripts": {
