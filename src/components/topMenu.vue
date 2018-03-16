@@ -6,13 +6,13 @@
 
 <script>
 export default {
-  name: 'top-menu'
+    name: 'top-menu'
 }
 </script>
 
 <style lang="less" scoped>
     .header {
-        background-color:#545c64;
+        background-color: #545c64;
         border-bottom: solid 1px #e6e6e6;
         h1 {
             padding: 0 20px;

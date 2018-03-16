@@ -1,7 +1,9 @@
 <template>
     <div id="app">
         <el-container>
-            <el-header><topMenu/></el-header>
+            <el-header>
+                <topMenu/>
+            </el-header>
             <el-container>
                 <el-aside width="241px">
                     <sidebar/>
@@ -17,33 +19,39 @@
 <script>
 import sidebar from './components/sidebar'
 import topMenu from './components/topMenu'
+
 export default {
-  name: 'App',
-  components: {
-    sidebar,
-    topMenu
-  }
+    name: 'App',
+    components: {
+        sidebar,
+        topMenu
+    }
 }
 </script>
 
 <style lang="less">
-    html,body {
+    html, body {
         height: 100%;
     }
+
     body {
         padding: 0;
         margin: 0;
     }
+
     #app {
         height: 100%;
     }
+
     .el-container {
         height: inherit;
     }
+
     .el-header {
         padding: 0;
     }
-    h1,h2,h3 {
+
+    h1, h2, h3 {
         -webkit-margin-before: 0;
         -webkit-margin-after: 0;
     }

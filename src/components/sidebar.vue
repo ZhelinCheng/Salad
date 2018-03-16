@@ -64,20 +64,20 @@
 
 <script>
 export default {
-  name: 'sidebar',
-  methods: {
-    handleOpen (key, keyPath) {
-      console.log(key, keyPath)
-    },
-    handleClose (key, keyPath) {
-      console.log(key, keyPath)
+    name: 'sidebar',
+    methods: {
+        handleOpen (key, keyPath) {
+            console.log(key, keyPath)
+        },
+        handleClose (key, keyPath) {
+            console.log(key, keyPath)
+        }
     }
-  }
 }
 </script>
 
 <style lang="less" scoped>
-    .sidebar,.el-menu-vertical {
+    .sidebar, .el-menu-vertical {
         height: 100%;
     }
 </style>
