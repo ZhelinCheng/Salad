@@ -12,6 +12,7 @@
 
 ### 使用
 
+目前是重新升级的版本，占位图功能目前还未整理无法运行，在后面会逐步完善。
 使用前请安装 [GraphicsMagick](http://www.graphicsmagick.org/) 或 [ImageMagick](http://www.imagemagick.org/).
 
 安装：
@@ -53,24 +54,10 @@ coser图片
 * `s` 参数（可选）：是否显示图片上的文字，默认显示。可设置参数`false`或`0`
 * `o` 参数（可选）：图片顺序
 
-## 目录说明
-* /resources 资源文件夹
-* /public 放置首页等静态文件
-* /lib 放置核心逻辑
-* /config 黑名单等配置文件
-* /logs 日志目录
-
-## 文件说明
-* /setting.json 基础配置文件
-* /app.js 程序入口及路由文件
-* /lib/arrangement.js 历史文件删除
-* /lib/error.js 错误处理
-* /lib/handle.js 图片处理
-* /lib/security.js 基础防御逻辑
-* /lib/tools.js 工具类
-* /lib/logs.js 日志生成逻辑
-
 ## 更新日志
+
+### v3.0.0
+- 增加基本后台架构
 
 ### v2.3.0
 - 增加配置文件
