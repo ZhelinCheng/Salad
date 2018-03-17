@@ -50,14 +50,10 @@
                 <el-menu-item index="4-3">禁用IP</el-menu-item>
                 <el-menu-item index="4-4">禁用UA</el-menu-item>
             </el-submenu>
-            <el-submenu index="5">
-                <template slot="title">
-                    <i class="el-icon-sort"></i>
-                    <span>CDN</span>
-                </template>
-                <el-menu-item index="5-1">刷新CDN</el-menu-item>
-                <el-menu-item index="5-2">缓存策略</el-menu-item>
-            </el-submenu>
+            <el-menu-item index="5">
+                <i class="el-icon-sort"></i>
+                <span>CDN</span>
+            </el-menu-item>
         </el-menu>
     </div>
 </template>
