@@ -12,6 +12,7 @@ export default new Router({
         component: State
     }, {
         path: '/examine/:classify',
-        component: List
+        component: List,
+        props: true
     }]
 })

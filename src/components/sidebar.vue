@@ -19,7 +19,7 @@
                 </template>
                 <el-menu-item-group>
                     <template slot="title">全部</template>
-                    <el-menu-item index="2-1">待审批</el-menu-item>
+                    <el-menu-item route=ture index="2-1">待审批</el-menu-item>
                     <el-menu-item index="2-2">已审批</el-menu-item>
                 </el-menu-item-group>
                 <el-menu-item-group>

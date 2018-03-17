@@ -19,9 +19,9 @@
                 fixed
                 prop="pic"
                 label="缩略图"
-                width="150">
+                width="100">
                 <template slot-scope="scope">
-                    <img :src="scope.row.pic" />
+                    <img class="el-thumbnail" :src="scope.row.pic" />
                 </template>
             </el-table-column>
             <el-table-column
@@ -33,16 +33,36 @@
                 prop="classify"
                 label="分类"
                 width="120">
+                <template slot-scope="scope">
+                    <el-dropdown @command="handleCommand">
+                    <span class="el-dropdown-link">
+                        {{scope.row.classify}}
+                        <i class="el-icon-arrow-down el-icon--right"></i>
+                    </span>
+                        <el-dropdown-menu slot="dropdown">
+                            <el-dropdown-item command="pure">清纯</el-dropdown-item>
+                            <el-dropdown-item command="coser">Coser</el-dropdown-item>
+                            <el-dropdown-item command="sexy">性感</el-dropdown-item>
+                            <el-dropdown-item command="games">游戏</el-dropdown-item>
+                            <el-dropdown-item command="logo">LOGO</el-dropdown-item>
+                        </el-dropdown-menu>
+                    </el-dropdown>
+                </template>
             </el-table-column>
             <el-table-column
                 prop="shape"
                 label="形状"
-                width="120">
+                width="70">
             </el-table-column>
             <el-table-column
                 prop="size"
                 label="大小"
-                width="100">
+                width="60">
+            </el-table-column>
+            <el-table-column
+                prop="path"
+                label="路径"
+                width="240">
             </el-table-column>
             <el-table-column
                 fixed="right"
@@ -58,7 +78,7 @@
                     <el-button
                         type="text"
                         size="small">
-                        编辑
+                        修改
                     </el-button>
                 </template>
             </el-table-column>
@@ -67,7 +87,6 @@
             <el-button type="danger" @click="deleteAll">删除所选</el-button>
             <el-pagination
                 @size-change="handleSizeChange"
-                @current-change="handleCurrentChange"
                 :current-page="currentPage4"
                 :page-sizes="[10, 20, 30, 40]"
                 :page-size="10"
@@ -91,7 +110,95 @@
 
 <script>
 export default {
+    props: ['classify'],
+    data () {
+        return {
+            currentPage4: 4,
+            deleteIndex: null,
+            multipleSelection: null,
+            centerDialogVisible: false,
+            tableData: [{
+                date: '2016-05-03',
+                pic: 'https://tuimeizi.cn/random?w=60&h=60',
+                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
+                classify: '清纯',
+                shape: '长方形',
+                size: '3.7M',
+                path: '/home/wwwroot/tuimeizi.cn/'
+            }, {
+                date: '2016-05-03',
+                pic: 'https://tuimeizi.cn/random?w=60&h=60',
+                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
+                classify: '清纯',
+                shape: '长方形',
+                size: '3.7M',
+                path: '/home/wwwroot/tuimeizi.cn/'
+            }, {
+                date: '2016-05-03',
+                pic: 'https://tuimeizi.cn/random?w=60&h=60',
+                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
+                classify: '清纯',
+                shape: '长方形',
+                size: '3.7M',
+                path: '/home/wwwroot/tuimeizi.cn/'
+            }, {
+                date: '2016-05-03',
+                pic: 'https://tuimeizi.cn/random?w=60&h=60',
+                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
+                classify: '清纯',
+                shape: '长方形',
+                size: '3.7M',
+                path: '/home/wwwroot/tuimeizi.cn/'
+            }, {
+                date: '2016-05-03',
+                pic: 'https://tuimeizi.cn/random?w=60&h=60',
+                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
+                classify: '清纯',
+                shape: '长方形',
+                size: '3.7M',
+                path: '/home/wwwroot/tuimeizi.cn/'
+            }, {
+                date: '2016-05-03',
+                pic: 'https://tuimeizi.cn/random?w=60&h=60',
+                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
+                classify: '清纯',
+                shape: '长方形',
+                size: '3.7M',
+                path: '/home/wwwroot/tuimeizi.cn/'
+            }, {
+                date: '2016-05-03',
+                pic: 'https://tuimeizi.cn/random?w=60&h=60',
+                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
+                classify: '清纯',
+                shape: '长方形',
+                size: '3.7M',
+                path: '/home/wwwroot/tuimeizi.cn/'
+            }, {
+                date: '2016-05-03',
+                pic: 'https://tuimeizi.cn/random?w=60&h=60',
+                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
+                classify: '清纯',
+                shape: '长方形',
+                size: '3.7M',
+                path: '/home/wwwroot/tuimeizi.cn/'
+            }, {
+                date: '2016-05-03',
+                pic: 'https://tuimeizi.cn/random?w=60&h=60',
+                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
+                classify: '清纯',
+                shape: '长方形',
+                size: '3.7M',
+                path: '/home/wwwroot/tuimeizi.cn/'
+            }]
+        }
+    },
     methods: {
+        // 下拉选择框
+        handleCommand (command) {
+            // this.$message('click on item ' + command)
+            console.log(command)
+        },
+
         // 删除当前选中
         deleteRow (index) {
             this.centerDialogVisible = true
@@ -100,6 +207,7 @@ export default {
 
         // 获取选中
         handleSelectionChange (val) {
+            console.log(this.classify)
             this.multipleSelection = val
         },
 
@@ -121,78 +229,6 @@ export default {
                 this.centerDialogVisible = false
             }
         }
-    },
-    data () {
-        return {
-            currentPage4: 4,
-            deleteIndex: null,
-            multipleSelection: null,
-            tableData: [{
-                date: '2016-05-03',
-                pic: 'https://tuimeizi.cn/random?w=60&h=60',
-                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
-                classify: '清纯',
-                shape: '长方形',
-                size: '3.7M'
-            }, {
-                date: '2016-05-03',
-                pic: 'https://tuimeizi.cn/random?w=60&h=60',
-                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
-                classify: '清纯',
-                shape: '长方形',
-                size: '3.7M'
-            }, {
-                date: '2016-05-03',
-                pic: 'https://tuimeizi.cn/random?w=60&h=60',
-                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
-                classify: '清纯',
-                shape: '长方形',
-                size: '3.7M'
-            }, {
-                date: '2016-05-03',
-                pic: 'https://tuimeizi.cn/random?w=60&h=60',
-                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
-                classify: '清纯',
-                shape: '长方形',
-                size: '3.7M'
-            }, {
-                date: '2016-05-03',
-                pic: 'https://tuimeizi.cn/random?w=60&h=60',
-                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
-                classify: '清纯',
-                shape: '长方形',
-                size: '3.7M'
-            }, {
-                date: '2016-05-03',
-                pic: 'https://tuimeizi.cn/random?w=60&h=60',
-                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
-                classify: '清纯',
-                shape: '长方形',
-                size: '3.7M'
-            }, {
-                date: '2016-05-03',
-                pic: 'https://tuimeizi.cn/random?w=60&h=60',
-                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
-                classify: '清纯',
-                shape: '长方形',
-                size: '3.7M'
-            }, {
-                date: '2016-05-03',
-                pic: 'https://tuimeizi.cn/random?w=60&h=60',
-                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
-                classify: '清纯',
-                shape: '长方形',
-                size: '3.7M'
-            }, {
-                date: '2016-05-03',
-                pic: 'https://tuimeizi.cn/random?w=60&h=60',
-                name: 'hswo3r23hri2uo3h4kwhf23uhr232rh23r.jpg',
-                classify: '清纯',
-                shape: '长方形',
-                size: '3.7M'
-            }],
-            centerDialogVisible: false
-        }
     }
 }
 </script>
@@ -210,6 +246,12 @@ export default {
         display: inline-block;
     }
 
+    .el-thumbnail {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        background-color: #ccc;
+    }
     .lists-panel {
         margin-top: 20px;
         .el-button--danger {
