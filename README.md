@@ -19,14 +19,6 @@
 
     yarn install
 
-启动（开发）：
-
-    nodemon app.js --dev
-
-启动（生产）:
-
-    node app.js
-
 ### 分类
 
 #### /random 
