@@ -1,10 +1,7 @@
-# Node-Position
+# Salad
 一个十分养眼的占位图Node.js程序。
 
 ## 说明
-
-默认关闭了日志功能，因为有内存溢出的情况，如需开启，增加--log参数即可。
-下一步准备使用Redis存储图片源图片数据。
 
     使用：http://127.0.0.1:3000/random?w={width}&h={height}&t={text}&o={number}&s={false||0}
 
@@ -12,12 +9,12 @@
 
 ### 使用
 
-目前是重新升级的版本，占位图功能目前还未整理无法运行，在后面会逐步完善。
+目前是重新升级的版本，占位图功能目前还未整理无法运行，正在重写。  
 使用前请安装 [GraphicsMagick](http://www.graphicsmagick.org/) 或 [ImageMagick](http://www.imagemagick.org/).
 
 安装：
 
-    yarn install
+    yarn install or npm i
 
 ### 分类
 

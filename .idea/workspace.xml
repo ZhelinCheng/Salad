@@ -1,290 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc93867f-5c0c-488e-b144-785b414ae06b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/server/routes/api.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/server/routes/coser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/server/routes/pure.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/server/routes/random.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/server/routes/sexy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/server/setting.json" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pak/logs/.audit.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pak/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pak/position/app.js" afterPath="$PROJECT_DIR$/server/app_pak.js" />
-      <change beforePath="$PROJECT_DIR$/pak/position/lib/arrangement.js" afterPath="$PROJECT_DIR$/server/lib/arrangement.js" />
-      <change beforePath="$PROJECT_DIR$/pak/position/lib/error.js" afterPath="$PROJECT_DIR$/server/lib/error.js" />
-      <change beforePath="$PROJECT_DIR$/pak/position/lib/handle.js" afterPath="$PROJECT_DIR$/server/lib/handle.js" />
-      <change beforePath="$PROJECT_DIR$/pak/position/lib/logs.js" afterPath="$PROJECT_DIR$/server/lib/logs.js" />
-      <change beforePath="$PROJECT_DIR$/pak/position/lib/response.js" afterPath="$PROJECT_DIR$/server/lib/response.js" />
-      <change beforePath="$PROJECT_DIR$/pak/position/lib/security.js" afterPath="$PROJECT_DIR$/server/lib/security.js" />
-      <change beforePath="$PROJECT_DIR$/pak/position/lib/tools.js" afterPath="$PROJECT_DIR$/server/lib/tools.js" />
-      <change beforePath="$PROJECT_DIR$/pak/position/lib/upload.js" afterPath="$PROJECT_DIR$/server/lib/upload.js" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/font/wryh.ttf" afterPath="$PROJECT_DIR$/server/resources/font/wryh.ttf" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/04b212fff7bf4417834de8537cc58190.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/04b212fff7bf4417834de8537cc58190.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/0b14be90694b2a77070d806112cdaa6c.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/0b14be90694b2a77070d806112cdaa6c.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/17ea2a650ff1bd433cb2ee9d7c73c2d8.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/17ea2a650ff1bd433cb2ee9d7c73c2d8.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/1961d3d01ba011fcebf781b730d31f6c.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/1961d3d01ba011fcebf781b730d31f6c.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/1c0c0228b18f6a21d1b2c250e915578e.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/1c0c0228b18f6a21d1b2c250e915578e.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/21908e458099d04cd4e1445bf1e7164d.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/21908e458099d04cd4e1445bf1e7164d.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/25cb7407908459e35365256e414e9d85.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/25cb7407908459e35365256e414e9d85.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/2dd621fdc2dcd1ebdf1e41fb2f368772.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/2dd621fdc2dcd1ebdf1e41fb2f368772.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/35881efc9a7dd100da801830c9d29717.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/35881efc9a7dd100da801830c9d29717.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/3ab973526bb5b610bf6f11c945044f4b.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/3ab973526bb5b610bf6f11c945044f4b.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/4292acb34ca68688675c03b7e1bdc974.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/4292acb34ca68688675c03b7e1bdc974.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/4533999fac42a7cdeac34461901afad8.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/4533999fac42a7cdeac34461901afad8.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/46ddd5215b6040029b5ec0dc006a7fa1.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/46ddd5215b6040029b5ec0dc006a7fa1.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/4d01debf036ed4df5ba55bb2a5c9d90b.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/4d01debf036ed4df5ba55bb2a5c9d90b.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/4d2b6ee29c222de863aa48b7d4aa86df.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/4d2b6ee29c222de863aa48b7d4aa86df.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/4fa894cc1664e7bf8cb9eb35b646d088.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/4fa894cc1664e7bf8cb9eb35b646d088.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/574ba597a3d2ee39fe5286824c809c1b.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/574ba597a3d2ee39fe5286824c809c1b.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/60099921c96a2ca0a84bde7878152590.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/60099921c96a2ca0a84bde7878152590.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/637b1cf4cd0decd48ddcc8f1d7346d10.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/637b1cf4cd0decd48ddcc8f1d7346d10.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/658d99165459351d1ec9fd2ac048e16b.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/658d99165459351d1ec9fd2ac048e16b.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/65ca944e92dd011aedadf0fb35ef8025.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/65ca944e92dd011aedadf0fb35ef8025.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/6807cd8729061f384a9b701946dd271f.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/6807cd8729061f384a9b701946dd271f.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/6919cb6a88cc812e4a353c3f0bed8764.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/6919cb6a88cc812e4a353c3f0bed8764.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/6e64df58d667daed38b7f8164e04b64e.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/6e64df58d667daed38b7f8164e04b64e.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/70411e01cca08260afa9839f1f890f71.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/70411e01cca08260afa9839f1f890f71.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/716c48e7ee8a6f0458596883c8cfe6be.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/716c48e7ee8a6f0458596883c8cfe6be.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/7737c5bd360f1245a593f9c7195bbcda.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/7737c5bd360f1245a593f9c7195bbcda.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/7ce7e109e6d9b09217d2ff2c2082cb92.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/7ce7e109e6d9b09217d2ff2c2082cb92.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/7d7a08d954f40331b7b9a99cf40e319c.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/7d7a08d954f40331b7b9a99cf40e319c.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/82cdbd47b7e9c9c832e6eaff0cec048b.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/82cdbd47b7e9c9c832e6eaff0cec048b.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/843560109df3276a117eea1cf794b8f7.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/843560109df3276a117eea1cf794b8f7.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/8660b6a9029977cc15e308840d7ecefb.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/8660b6a9029977cc15e308840d7ecefb.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/922d4422f655e8e347b39dbcf21aaccb.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/922d4422f655e8e347b39dbcf21aaccb.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/949f9b1f05bf36785e133cc277d4a98d.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/949f9b1f05bf36785e133cc277d4a98d.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/94f5c3628d5921382f8590432a1ae5a5.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/94f5c3628d5921382f8590432a1ae5a5.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/96a5d2dace1a2f3bbfa5bb5a8b414f5c.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/96a5d2dace1a2f3bbfa5bb5a8b414f5c.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/98e5a83acadb7d3c8428fef906794ed6.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/98e5a83acadb7d3c8428fef906794ed6.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/99553260f3cfd80d7f255a171e7cddd0.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/99553260f3cfd80d7f255a171e7cddd0.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/9add34c209982d7bb40b4c361e359528.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/9add34c209982d7bb40b4c361e359528.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/9ef7e2d92bf035989e716e3bf8f68a2f.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/9ef7e2d92bf035989e716e3bf8f68a2f.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/a244c8c71ad07e59b845caec7a3b8773.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/a244c8c71ad07e59b845caec7a3b8773.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/a98f1811008e64f765c84b7a3031f14f.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/a98f1811008e64f765c84b7a3031f14f.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/bd03fdbf7e1adbcb96eadf3f9bbe5d70.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/bd03fdbf7e1adbcb96eadf3f9bbe5d70.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/bea217465ce75bc053de829f2c0bbb72.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/bea217465ce75bc053de829f2c0bbb72.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/c074ea67936b5920d6a304231a21e2a9.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/c074ea67936b5920d6a304231a21e2a9.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/d533732f404a699f8502c10c497b3ba7.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/d533732f404a699f8502c10c497b3ba7.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/da766fbb7c267256e76a257768c4ac15.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/da766fbb7c267256e76a257768c4ac15.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/dc7110c628584aeb986943c16a5a4830.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/dc7110c628584aeb986943c16a5a4830.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/f439714f69daaabe2cbe88bf5ce0c2ed.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/f439714f69daaabe2cbe88bf5ce0c2ed.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/f5067a39ec7e5d7e58f415f579e637a1.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/f5067a39ec7e5d7e58f415f579e637a1.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/f65f1829e8d73cc3bc61e375e3e67006.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/f65f1829e8d73cc3bc61e375e3e67006.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/fcee916573838772502715dafd2525c0.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/fcee916573838772502715dafd2525c0.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/coser/ffd54568f519ba5252cfdbf76cb8b103.jpg" afterPath="$PROJECT_DIR$/server/resources/output/coser/ffd54568f519ba5252cfdbf76cb8b103.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/21607a44630f5693c94719995684b414.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/21607a44630f5693c94719995684b414.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/2d21d4b3de8e4cb33d370a85585395f6.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/2d21d4b3de8e4cb33d370a85585395f6.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/3eb08c036dc2cd230cf5a7af378bb7c0.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/3eb08c036dc2cd230cf5a7af378bb7c0.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/3eb2f389fa1e208226a5d0735b3481bd.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/3eb2f389fa1e208226a5d0735b3481bd.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/57bc60ba48f9d0cc8fd56c2406a25f85.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/57bc60ba48f9d0cc8fd56c2406a25f85.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/647d18034e54c8fe2d7aeed9e267429a.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/647d18034e54c8fe2d7aeed9e267429a.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/6930d03dcc01bfb5e3415fa7dc37cb22.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/6930d03dcc01bfb5e3415fa7dc37cb22.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/6a8f74593d9045b3d745136cb33edd43.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/6a8f74593d9045b3d745136cb33edd43.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/89a41c092822fcc39620d58fb009d0a3.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/89a41c092822fcc39620d58fb009d0a3.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/949c1a16f63b94ba6dd274ed8f4b388b.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/949c1a16f63b94ba6dd274ed8f4b388b.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/9c06de9bf2bc41a78aeed077ff35e013.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/9c06de9bf2bc41a78aeed077ff35e013.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/a3cbf83dbf5b9ef01723151fbffc4afe.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/a3cbf83dbf5b9ef01723151fbffc4afe.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/ad44224f35b4b4a7c588182a353e2b64.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/ad44224f35b4b4a7c588182a353e2b64.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/b612db940274d5ca787ed101edcd78fe.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/b612db940274d5ca787ed101edcd78fe.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/bbe52ec5b90de7ee804c2dabd6fecc3f.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/bbe52ec5b90de7ee804c2dabd6fecc3f.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/ccccdec405e3458a6100811b5fd503ad.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/ccccdec405e3458a6100811b5fd503ad.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/f63c4583c41c0ce9073cf1aeba206e10.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/f63c4583c41c0ce9073cf1aeba206e10.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/f9ad8f80037eed97c97d61905e74e5e4.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/f9ad8f80037eed97c97d61905e74e5e4.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/f9e6dad875465f1242dceb68964af043.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/f9e6dad875465f1242dceb68964af043.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/output/pure/fa9e09a946e1ffdf199e013e8a11531a.jpg" afterPath="$PROJECT_DIR$/server/resources/output/pure/fa9e09a946e1ffdf199e013e8a11531a.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/h/coser/295558087204.jpg" afterPath="$PROJECT_DIR$/server/resources/source/h/coser/295558087204.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/h/coser/295558093626.jpg" afterPath="$PROJECT_DIR$/server/resources/source/h/coser/295558093626.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/h/coser/703-1FF4144027.jpg" afterPath="$PROJECT_DIR$/server/resources/source/h/coser/703-1FF4144027.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/h/coser/8729a648gy1ffisjsxur1j21f01w0e81.jpg" afterPath="$PROJECT_DIR$/server/resources/source/h/coser/8729a648gy1ffisjsxur1j21f01w0e81.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/h/coser/8729a648gy1fh19ut6vmaj21f01w0u0z.jpg" afterPath="$PROJECT_DIR$/server/resources/source/h/coser/8729a648gy1fh19ut6vmaj21f01w0u0z.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/h/coser/IMG_1998.JPG" afterPath="$PROJECT_DIR$/server/resources/source/h/coser/IMG_1998.JPG" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/h/pure/IMG_2065.JPG" afterPath="$PROJECT_DIR$/server/resources/source/h/pure/IMG_2065.JPG" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/h/pure/IMG_2094.JPG" afterPath="$PROJECT_DIR$/server/resources/source/h/pure/IMG_2094.JPG" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/h/pure/f0f928b06b549ddc22c2f4a680268e9ef4b5e42da75a-Wwn6kJ.jpg" afterPath="$PROJECT_DIR$/server/resources/source/h/pure/f0f928b06b549ddc22c2f4a680268e9ef4b5e42da75a-Wwn6kJ.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/h/sexy/111eb30978e8a3585a0c21982f143aec51cd95804030f-GSSvQv.jpg" afterPath="$PROJECT_DIR$/server/resources/source/h/sexy/111eb30978e8a3585a0c21982f143aec51cd95804030f-GSSvQv.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/h/sexy/s1.jpg" afterPath="$PROJECT_DIR$/server/resources/source/h/sexy/s1.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/h/sexy/s2.jpg" afterPath="$PROJECT_DIR$/server/resources/source/h/sexy/s2.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/h/sexy/s3.jpg" afterPath="$PROJECT_DIR$/server/resources/source/h/sexy/s3.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/w/coser/4F347705-33E3-45CF-968E-EBB2570E0F6B.jpeg" afterPath="$PROJECT_DIR$/server/resources/source/w/coser/4F347705-33E3-45CF-968E-EBB2570E0F6B.jpeg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/w/coser/A4FB2CAB-BEB3-4B49-A01A-247C7D509C7B.jpeg" afterPath="$PROJECT_DIR$/server/resources/source/w/coser/A4FB2CAB-BEB3-4B49-A01A-247C7D509C7B.jpeg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/w/coser/BD239E09-E150-44D2-BACA-2EC75FA2FFF6.jpeg" afterPath="$PROJECT_DIR$/server/resources/source/w/coser/BD239E09-E150-44D2-BACA-2EC75FA2FFF6.jpeg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/w/logo/111.jpg" afterPath="$PROJECT_DIR$/server/resources/source/w/logo/111.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/w/logo/3257-1FHGF2370-L.jpg" afterPath="$PROJECT_DIR$/server/resources/source/w/logo/3257-1FHGF2370-L.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/w/logo/3260-1FGF95QU21.jpg" afterPath="$PROJECT_DIR$/server/resources/source/w/logo/3260-1FGF95QU21.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/w/pure/DE32281C-A88E-43FB-8429-1FFA7CB0622A.jpeg" afterPath="$PROJECT_DIR$/server/resources/source/w/pure/DE32281C-A88E-43FB-8429-1FFA7CB0622A.jpeg" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/w/pure/IMG_2089.JPG" afterPath="$PROJECT_DIR$/server/resources/source/w/pure/IMG_2089.JPG" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/w/pure/IMG_2106.JPG" afterPath="$PROJECT_DIR$/server/resources/source/w/pure/IMG_2106.JPG" />
-      <change beforePath="$PROJECT_DIR$/pak/position/resources/source/w/sexy/2.jpg" afterPath="$PROJECT_DIR$/server/resources/source/w/sexy/2.jpg" />
-      <change beforePath="$PROJECT_DIR$/pak/yarn.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" afterPath="$PROJECT_DIR$/server/app.js" />
-      <change beforePath="$PROJECT_DIR$/server/bin/www" afterPath="$PROJECT_DIR$/server/bin/www" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" afterPath="$PROJECT_DIR$/server/package.json" />
-      <change beforePath="$PROJECT_DIR$/server/routes/index.js" afterPath="$PROJECT_DIR$/server/routes/index.js" />
-      <change beforePath="$PROJECT_DIR$/server/routes/users.js" afterPath="$PROJECT_DIR$/server/routes/users.js" />
-      <change beforePath="$PROJECT_DIR$/server/yarn.lock" afterPath="$PROJECT_DIR$/server/yarn.lock" />
+    <list default="true" id="7b6b980a-9e98-42dd-bd33-0788b8f36daf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Node-Position.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/preferred-vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/config/test.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/cdn.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/sidebar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/state.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/topMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/test/e2e/custom-assertions/elementCount.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/test/e2e/nightwatch.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/test/e2e/runner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/test/e2e/specs/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/test/unit/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/test/unit/specs/HelloWorld.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app_pak.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/bin/www" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/arrangement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/handle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/logs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/security.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/stylesheets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/font/wryh.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/04b212fff7bf4417834de8537cc58190.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/0b14be90694b2a77070d806112cdaa6c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/17ea2a650ff1bd433cb2ee9d7c73c2d8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/1961d3d01ba011fcebf781b730d31f6c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/1c0c0228b18f6a21d1b2c250e915578e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/21908e458099d04cd4e1445bf1e7164d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/25cb7407908459e35365256e414e9d85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/2dd621fdc2dcd1ebdf1e41fb2f368772.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/35881efc9a7dd100da801830c9d29717.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/3ab973526bb5b610bf6f11c945044f4b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/4292acb34ca68688675c03b7e1bdc974.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/4533999fac42a7cdeac34461901afad8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/46ddd5215b6040029b5ec0dc006a7fa1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/4d01debf036ed4df5ba55bb2a5c9d90b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/4d2b6ee29c222de863aa48b7d4aa86df.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/4fa894cc1664e7bf8cb9eb35b646d088.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/574ba597a3d2ee39fe5286824c809c1b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/60099921c96a2ca0a84bde7878152590.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/637b1cf4cd0decd48ddcc8f1d7346d10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/658d99165459351d1ec9fd2ac048e16b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/65ca944e92dd011aedadf0fb35ef8025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/6807cd8729061f384a9b701946dd271f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/6919cb6a88cc812e4a353c3f0bed8764.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/6e64df58d667daed38b7f8164e04b64e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/70411e01cca08260afa9839f1f890f71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/716c48e7ee8a6f0458596883c8cfe6be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/7737c5bd360f1245a593f9c7195bbcda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/7ce7e109e6d9b09217d2ff2c2082cb92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/7d7a08d954f40331b7b9a99cf40e319c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/82cdbd47b7e9c9c832e6eaff0cec048b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/843560109df3276a117eea1cf794b8f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/8660b6a9029977cc15e308840d7ecefb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/922d4422f655e8e347b39dbcf21aaccb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/949f9b1f05bf36785e133cc277d4a98d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/94f5c3628d5921382f8590432a1ae5a5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/96a5d2dace1a2f3bbfa5bb5a8b414f5c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/98e5a83acadb7d3c8428fef906794ed6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/99553260f3cfd80d7f255a171e7cddd0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/9add34c209982d7bb40b4c361e359528.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/9ef7e2d92bf035989e716e3bf8f68a2f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/a244c8c71ad07e59b845caec7a3b8773.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/a98f1811008e64f765c84b7a3031f14f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/bd03fdbf7e1adbcb96eadf3f9bbe5d70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/bea217465ce75bc053de829f2c0bbb72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/c074ea67936b5920d6a304231a21e2a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/d533732f404a699f8502c10c497b3ba7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/da766fbb7c267256e76a257768c4ac15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/dc7110c628584aeb986943c16a5a4830.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/f439714f69daaabe2cbe88bf5ce0c2ed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/f5067a39ec7e5d7e58f415f579e637a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/f65f1829e8d73cc3bc61e375e3e67006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/fcee916573838772502715dafd2525c0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/coser/ffd54568f519ba5252cfdbf76cb8b103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/21607a44630f5693c94719995684b414.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/2d21d4b3de8e4cb33d370a85585395f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/3eb08c036dc2cd230cf5a7af378bb7c0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/3eb2f389fa1e208226a5d0735b3481bd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/57bc60ba48f9d0cc8fd56c2406a25f85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/647d18034e54c8fe2d7aeed9e267429a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/6930d03dcc01bfb5e3415fa7dc37cb22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/6a8f74593d9045b3d745136cb33edd43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/89a41c092822fcc39620d58fb009d0a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/949c1a16f63b94ba6dd274ed8f4b388b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/9c06de9bf2bc41a78aeed077ff35e013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/a3cbf83dbf5b9ef01723151fbffc4afe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/ad44224f35b4b4a7c588182a353e2b64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/b612db940274d5ca787ed101edcd78fe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/bbe52ec5b90de7ee804c2dabd6fecc3f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/ccccdec405e3458a6100811b5fd503ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/f63c4583c41c0ce9073cf1aeba206e10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/f9ad8f80037eed97c97d61905e74e5e4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/f9e6dad875465f1242dceb68964af043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/output/pure/fa9e09a946e1ffdf199e013e8a11531a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/h/coser/295558087204.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/h/coser/295558093626.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/h/coser/703-1FF4144027.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/h/coser/8729a648gy1ffisjsxur1j21f01w0e81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/h/coser/8729a648gy1fh19ut6vmaj21f01w0u0z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/h/coser/IMG_1998.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/h/pure/IMG_2065.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/h/pure/IMG_2094.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/h/pure/f0f928b06b549ddc22c2f4a680268e9ef4b5e42da75a-Wwn6kJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/h/sexy/111eb30978e8a3585a0c21982f143aec51cd95804030f-GSSvQv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/h/sexy/s1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/h/sexy/s2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/h/sexy/s3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/w/coser/4F347705-33E3-45CF-968E-EBB2570E0F6B.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/w/coser/A4FB2CAB-BEB3-4B49-A01A-247C7D509C7B.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/w/coser/BD239E09-E150-44D2-BACA-2EC75FA2FFF6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/w/logo/111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/w/logo/3257-1FHGF2370-L.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/w/logo/3260-1FGF95QU21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/w/pure/DE32281C-A88E-43FB-8429-1FFA7CB0622A.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/w/pure/IMG_2089.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/w/pure/IMG_2106.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/resources/source/w/sexy/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/coser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/pure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/random.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/sexy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/views/error.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/views/index.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/views/layout.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/routes/users.js">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="400">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sexy.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/routes/sexy.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/bin/www">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/www">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="2125">
+              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/app.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_pak.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/app_pak.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/routes/api.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pure.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/routes/pure.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/routes/random.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="7" selection-start-column="7" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="Vue" />
-        <option value="Vue Single File Component" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>func</find>
-      <find>output</find>
-      <find>exists</find>
-      <find>_l</find>
-      <find>_h</find>
-      <find>_r</find>
-      <find>findRm</find>
-      <find>imgs</find>
-      <find>generate</find>
-      <find>_IMG_OBJ</find>
-      <find>handle</find>
-      <find>source</find>
-      <find>s=f</find>
-      <find>isParameter</find>
-      <find>imageMagick</find>
-      <find>path</find>
-      <find>_allowUa</find>
-      <find>readIp</find>
-      <find>config</find>
-      <find>obj.par</find>
-      <find>isBrowser</find>
-      <find>obj.path</find>
-      <find>logs</find>
-      <find>console.log</find>
-      <find>console</find>
-      <find>handleSelectionChange</find>
-      <find>handleCurrentChang</find>
-      <find>handleCurrentChange</find>
-      <find>handleSizeChange</find>
       <find>var</find>
     </findStrings>
-    <dirStrings>
-      <dir>E:\GitHub\Node-Position</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -292,143 +243,34 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.js" />
-        <option value="$PROJECT_DIR$/lib/delete.js" />
-        <option value="$PROJECT_DIR$/config/delete.log" />
-        <option value="$PROJECT_DIR$/lib/access.log" />
-        <option value="$PROJECT_DIR$/logs/1.log" />
-        <option value="$PROJECT_DIR$/config/ip.txt" />
-        <option value="$PROJECT_DIR$/config/setting.json" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/lib/tools.js" />
-        <option value="$PROJECT_DIR$/lib/handle.js" />
-        <option value="$PROJECT_DIR$/lib/upload.js" />
-        <option value="$PROJECT_DIR$/config/config.json.js" />
-        <option value="$PROJECT_DIR$/config/config.json" />
-        <option value="$PROJECT_DIR$/lib/arrangement.js" />
-        <option value="$PROJECT_DIR$/setting.json" />
-        <option value="$PROJECT_DIR$/lib/response.js" />
-        <option value="$PROJECT_DIR$/lib/logs.js" />
-        <option value="$PROJECT_DIR$/lib/error.js" />
-        <option value="$PROJECT_DIR$/lib/security.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/position/app.js" />
+        <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/src/components/HelloWorld.vue" />
-        <option value="$PROJECT_DIR$/.editorconfig" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/src/main.js" />
-        <option value="$PROJECT_DIR$/.eslintrc.js" />
-        <option value="$PROJECT_DIR$/src/components/state.vue" />
-        <option value="$PROJECT_DIR$/src/components/topMenu.vue" />
-        <option value="$PROJECT_DIR$/src/components/examine.vue" />
-        <option value="$PROJECT_DIR$/src/App.vue" />
-        <option value="$PROJECT_DIR$/src/components/list.vue" />
-        <option value="$PROJECT_DIR$/src/components/sidebar.vue" />
-        <option value="$PROJECT_DIR$/src/router/index.js" />
-        <option value="$PROJECT_DIR$/src/components/cdn.vue" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/server/routes/index.js" />
-        <option value="$PROJECT_DIR$/server/routes/sexy.js" />
-        <option value="$PROJECT_DIR$/server/routes/coser.js" />
-        <option value="$PROJECT_DIR$/server/routes/api.js" />
-        <option value="$PROJECT_DIR$/server/routes/random.js" />
-        <option value="$PROJECT_DIR$/server/routes/pure.js" />
-        <option value="$PROJECT_DIR$/server/package.json" />
-        <option value="$PROJECT_DIR$/server/app_pak.js" />
-        <option value="$PROJECT_DIR$/server/setting.json" />
-        <option value="$PROJECT_DIR$/server/bin/www" />
-        <option value="$PROJECT_DIR$/server/routes/users.js" />
-        <option value="$PROJECT_DIR$/server/app.js" />
+        <option value="$PROJECT_DIR$/config.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/admin/node_modules" />
-    <handled-path value="$PROJECT_DIR$/server/node_modules" />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Code quality toolsJavaScript</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+    <option name="x" value="2552" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource ProjectPane="true" />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Node-Position" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Node-Position" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Node-Position" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Node-Position" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Node-Position" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Node-Position" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Node-Position" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Node-Position" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Salad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Salad" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -437,34 +279,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
-    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="E:\GitHub\Node-Position\node_modules\eslint" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.selected.package.standard" value="E:\GitHub\Node-Position\node_modules\eslint" />
-    <property name="standardjs.codestyle.accepted" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\GitHub\Node-Position\server" />
-      <recent name="E:\GitHub\Node-Position\src\components" />
-      <recent name="E:\GitHub\Node-Position\position" />
-      <recent name="E:\GitHub\Node-Position" />
-      <recent name="E:\GitHub\Node-Position\resources\font" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GitHub\Node-Position" />
-      <recent name="E:\GitHub\Node-Position\resources" />
-      <recent name="E:\GitHub\Node-Position\lib" />
-    </key>
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -478,453 +298,100 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cc93867f-5c0c-488e-b144-785b414ae06b" name="Default" comment="" />
-      <created>1506857857174</created>
+      <changelist id="7b6b980a-9e98-42dd-bd33-0788b8f36daf" name="Default Changelist" comment="" />
+      <created>1551886579043</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1506857857174</updated>
-      <workItem from="1506857858398" duration="17688000" />
-      <workItem from="1506925239172" duration="581000" />
-      <workItem from="1506925842623" duration="21000" />
-      <workItem from="1506925884767" duration="19795000" />
-      <workItem from="1506956227187" duration="6938000" />
-      <workItem from="1507006269353" duration="9775000" />
-      <workItem from="1507025272138" duration="1396000" />
-      <workItem from="1507050020305" duration="706000" />
-      <workItem from="1507184111920" duration="184000" />
-      <workItem from="1507392849476" duration="2549000" />
-      <workItem from="1507440234149" duration="944000" />
-      <workItem from="1507456284236" duration="176000" />
-      <workItem from="1507559181088" duration="682000" />
-      <workItem from="1507876767324" duration="1107000" />
-      <workItem from="1507962812999" duration="849000" />
-      <workItem from="1508056815310" duration="9196000" />
-      <workItem from="1509028274774" duration="1921000" />
-      <workItem from="1509277918699" duration="212000" />
-      <workItem from="1509278230710" duration="8412000" />
-      <workItem from="1509628072456" duration="74000" />
-      <workItem from="1510898421205" duration="3217000" />
-      <workItem from="1511258300645" duration="4747000" />
-      <workItem from="1511413515945" duration="161000" />
-      <workItem from="1512288505947" duration="819000" />
-      <workItem from="1513262724332" duration="16000" />
-      <workItem from="1513487920338" duration="3854000" />
-      <workItem from="1514540078409" duration="98000" />
-      <workItem from="1514540345716" duration="3395000" />
-      <workItem from="1514620889989" duration="207000" />
-      <workItem from="1514634023116" duration="1839000" />
-      <workItem from="1516441909775" duration="26000" />
-      <workItem from="1516441957506" duration="17155000" />
-      <workItem from="1519626396060" duration="845000" />
-      <workItem from="1519627388671" duration="464000" />
-      <workItem from="1519633269917" duration="4907000" />
-      <workItem from="1519650837530" duration="50000" />
-      <workItem from="1519650902213" duration="311000" />
-      <workItem from="1521165894010" duration="7046000" />
-      <workItem from="1521173441467" duration="14091000" />
-      <workItem from="1521260750171" duration="73000" />
-      <workItem from="1521260849281" duration="5744000" />
-      <workItem from="1521365154506" duration="2631000" />
+      <updated>1551886579043</updated>
+      <workItem from="1551886580201" duration="587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154902000" />
+    <option name="totallyTimeSpent" value="587000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="2552" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10748156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2131324" sideWeight="0.5021075" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2131324" sideWeight="0.49789253" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08773784" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="3" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/output/pure/eba2ef0f5747e697646ff0a6bbd47663.jpg" />
-    <entry file="file://$PROJECT_DIR$/logs/.audit.json">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/output/coser/8e9b2101915ef589046fa3b2bf47353e.jpg" />
-    <entry file="file://$PROJECT_DIR$/config/ip.txt" />
-    <entry file="file://$PROJECT_DIR$/config/setting.json" />
-    <entry file="file://$PROJECT_DIR$/position/lib/upload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/position/lib/arrangement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/position/lib/handle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="150" column="34" lean-forward="false" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/position/lib/response.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="64" column="25" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setting.json" />
-    <entry file="file://$PROJECT_DIR$/position/lib/error.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/position/lib/security.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/position/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/position/public/dev.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/position/lib/tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/position/lib/logs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        <state relative-caret-position="500">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="400">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HelloWorld.vue" />
-    <entry file="file://$PROJECT_DIR$/.babelrc">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="225">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="2125">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
+    <entry file="file://$PROJECT_DIR$/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/state.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/list.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2337">
-          <caret line="203" column="16" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="203" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/topMenu.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/examine.vue" />
-    <entry file="file://$PROJECT_DIR$/src/components/cdn.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sidebar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="361">
-            <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-            <folding />
+          <first_editor>
+            <caret column="7" selection-start-column="7" selection-end-column="7" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/error.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/coser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/random.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/pure.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pak/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pak/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/setting.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app_pak.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/sexy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
