@@ -1,0 +1,30 @@
+{
+  "name": "Salad",
+  "version": "3.0.0",
+  "description": "Node.js占位图程序",
+  "homepage": "https://github.com/ZhelinCheng/Salad",
+  "author": {
+    "name": "Zhelin Cheng"
+  },
+  "bugs": {
+    "url": "https://github.com/ZhelinCheng/Salad/issues"
+  },
+  "scripts": {
+    "dev": "nodemon ./bin/www",
+    "inspect": "nodemon --inspect ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cron": "^1.6.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "gm": "^1.23.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
