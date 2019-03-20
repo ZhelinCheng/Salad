@@ -21,6 +21,7 @@
     "express": "~4.16.0",
     "gm": "^1.23.1",
     "http-errors": "~1.6.2",
+    "imageinfo": "^1.0.4",
     "morgan": "~1.9.0",
     "pug": "2.0.0-beta11"
   },
