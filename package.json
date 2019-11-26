@@ -1,31 +1,70 @@
 {
-  "name": "Salad",
-  "version": "3.0.0",
-  "description": "Node.js占位图程序",
-  "homepage": "https://github.com/ZhelinCheng/Salad",
-  "author": {
-    "name": "Zhelin Cheng"
-  },
-  "bugs": {
-    "url": "https://github.com/ZhelinCheng/Salad/issues"
-  },
+  "name": "salad",
+  "version": "2.0.1",
+  "description": "美女占位图，前端占位图生成，超强的占位图程序。",
+  "author": "Zhelin Cheng",
+  "license": "MIT",
   "scripts": {
-    "dev": "nodemon ./bin/www",
-    "inspect": "nodemon --inspect ./bin/www",
-    "start": "node ./bin/www"
+    "prebuild": "rimraf dist",
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start": "cross-env NODE_ENV=production nest start",
+    "start:dev": "cross-env NODE_ENV=development nest start --watch",
+    "start:debug": "cross-env NODE_ENV=test nest start --debug --watch",
+    "start:prod": "cross-env NODE_ENV=production node dist/main",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+    "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.3",
-    "cron": "^1.6.0",
-    "debug": "~2.6.9",
-    "express": "~4.16.0",
-    "gm": "^1.23.1",
-    "http-errors": "~1.6.2",
-    "imageinfo": "^1.0.4",
-    "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11"
+    "@nestjs/common": "^6.10.1",
+    "@nestjs/core": "^6.10.1",
+    "@nestjs/platform-express": "^6.10.1",
+    "cache-manager": "^2.10.1",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.11.0",
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.2.0",
+    "express-rate-limit": "^5.0.0",
+    "helmet": "^3.21.2",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.0",
+    "rxjs": "^6.5.3",
+    "ts-md5": "^1.2.7"
   },
   "devDependencies": {
-    "nodemon": "^1.18.10"
+    "@nestjs/cli": "^6.12.2",
+    "@nestjs/schematics": "^6.7.3",
+    "@nestjs/testing": "^6.10.1",
+    "@types/express": "^4.17.2",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.14",
+    "@types/supertest": "^2.0.8",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.2.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.5.2",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "./coverage",
+    "testEnvironment": "node"
   }
 }
