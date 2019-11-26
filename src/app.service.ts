@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 11:00:33
- * @LastEditTime: 2019-11-26 17:48:01
+ * @LastEditTime: 2019-11-26 18:05:52
  * @LastEditors: Zhelin Cheng
  * @Description: 处理程序
  */
@@ -59,11 +59,11 @@ export class AppService {
     // 获取宽高
     const [width, height] = sizeSplit
     const fontSize = this.computedFontSize(width, height, size)
-
+    const fontColor = '#' + color
     // 生成SVG
     const composite: sharp.OverlayOptions[] = []
     if (fontSize >= 12) {
-      const attributes = { fill: '#' + color, stroke: '#' + color }
+      const attributes = { fill: fontColor, stroke: fontColor }
       const options = { x: 0, y: 0, fontSize, anchor: 'top', attributes }
       const svg = textToSVG.getSVG(size, options)
       composite.push({
