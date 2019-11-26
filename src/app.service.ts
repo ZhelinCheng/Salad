@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 11:00:33
- * @LastEditTime: 2019-11-26 23:29:46
+ * @LastEditTime: 2019-11-26 23:31:52
  * @LastEditors: Zhelin Cheng
  * @Description: 处理程序
  */
@@ -34,7 +34,7 @@ export class AppService {
       dir = ROUTER_PAGES[Math.floor((Math.random() * ROUTER_PAGES.length))]
     }
 
-    console.log(`images.${dir}.${isWidth ? 'width' : 'height'}`)
+    // console.log(`images.${dir}.${isWidth ? 'width' : 'height'}`)
     const images = db.get(`images.${dir}.${isWidth ? 'width' : 'height'}`).value()
     const img = images[Math.floor((Math.random() * images.length))]
 
