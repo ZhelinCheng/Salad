@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 11:00:33
- * @LastEditTime: 2019-11-26 18:05:52
+ * @LastEditTime: 2019-11-26 20:55:04
  * @LastEditors: Zhelin Cheng
  * @Description: 处理程序
  */
@@ -9,8 +9,12 @@ import { Injectable } from '@nestjs/common'
 import * as path from 'path'
 import * as sharp from 'sharp'
 import * as TextToSVG from 'text-to-svg'
+import * as low from 'lowdb'
+import * as FileSync from 'lowdb/adapters/FileSync'
 import { MIN_FONT_SIZE, FONT_SIZE_ZOOM, ROUTER_PAGES } from './const'
 const textToSVG = TextToSVG.loadSync()
+const adapter = new FileSync(path.resolve(__dirname, '../db.json'))
+const db = low(adapter)
 
 @Injectable()
 export class AppService {
@@ -24,13 +28,16 @@ export class AppService {
   }
 
   // 获取源图片
-  private getSourceImage(page: string): string {
+  private getSourceImage(page: string, isWidth: boolean): string {
     let dir = page
     if (!ROUTER_PAGES.includes(page)) {
       dir = ROUTER_PAGES[Math.floor((Math.random() * ROUTER_PAGES.length))]
     }
-    dir = path.resolve(__dirname, `../pages/${dir}/`)
-    return ''
+
+    const images = db.get(`images.${dir}.${isWidth ? 'width' : 'height'}`).value()
+    const img = images[Math.floor((Math.random() * images.length))]
+
+    return path.resolve(__dirname, `../pages/${dir}/${img.name}`)
   }
 
   // 计算文字大小
@@ -46,14 +53,14 @@ export class AppService {
     }
 
     // 字体宽度大于图片宽度
-    if (size.length * fontSize > width || fontSize > height) {
+    if (fontSize > height) {
       fontSize = 0
     }
 
     return fontSize
   }
 
-  async generateImage({ page, size, color = 'cccccc' }) {
+  async generateImage({ page, size, color = 'ffffff' }) {
     let sizeSplit = size.split(/x|X/)
     sizeSplit = sizeSplit.map((item: string) => parseInt(item, 10))
     // 获取宽高
@@ -71,7 +78,7 @@ export class AppService {
       })
     }
 
-    const file = this.getSourceImage(page)
+    const file = this.getSourceImage(page, width >= height)
     return await this.convert2Sharp(file)
       .composite(composite)
       .resize(width, height)

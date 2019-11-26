@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 11:00:33
- * @LastEditTime: 2019-11-26 16:43:01
+ * @LastEditTime: 2019-11-26 21:13:05
  * @LastEditors: Zhelin Cheng
  * @Description: 主模块
  */
@@ -26,7 +26,7 @@ async function bootstrap() {
   app.use(
     rateLimit({
       windowMs: 60000,
-      max: 30,
+      max: 20,
       message: {
         code: 429,
         message: '请求过于频繁，请休息一下再试。'

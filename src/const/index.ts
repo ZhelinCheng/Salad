@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 17:30:49
- * @LastEditTime: 2019-11-26 17:38:53
+ * @LastEditTime: 2019-11-26 19:36:29
  * @LastEditors: Zhelin Cheng
  * @Description: 常量
  */
@@ -9,6 +9,7 @@
 import * as path from 'path'
 import * as fs from 'fs-extra'
 const pagesPath = path.resolve(__dirname, '../../pages')
+fs.ensureDirSync(pagesPath)
 let pages = fs.readdirSync(pagesPath)
 pages = pages.filter(dir => {
   return fs.statSync(path.join(pagesPath, dir)).isDirectory()
