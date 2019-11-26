@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 17:52:56
- * @LastEditTime: 2019-11-26 20:20:35
+ * @LastEditTime: 2019-11-26 23:31:25
  * @LastEditors: Zhelin Cheng
  * @Description: 生成基础配置
  */
@@ -40,7 +40,7 @@ pages.forEach(async (dir) => {
   // 保存数据
   images[dir] = {
     width: [],
-    heigth: []
+    height: []
   }
 
   for (const name of dirImages) {
@@ -49,7 +49,7 @@ pages.forEach(async (dir) => {
     if (imgInfo.width >= imgInfo.height) {
       images[dir].width.push(imgInfo)
     } else {
-      images[dir].heigth.push(imgInfo)
+      images[dir].height.push(imgInfo)
     }
   }
 })
