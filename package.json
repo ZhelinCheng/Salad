@@ -24,6 +24,8 @@
     "@nestjs/core": "^6.10.1",
     "@nestjs/platform-express": "^6.10.1",
     "@types/fs-extra": "^8.0.1",
+    "@types/lowdb": "^1.0.9",
+    "@types/sharp": "^0.23.0",
     "cache-manager": "^2.10.1",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.11.0",
@@ -32,9 +34,12 @@
     "express-rate-limit": "^5.0.0",
     "fs-extra": "^8.1.0",
     "helmet": "^3.21.2",
+    "lowdb": "^1.0.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
     "rxjs": "^6.5.3",
+    "sharp": "^0.23.3",
+    "text-to-svg": "^3.1.5",
     "ts-md5": "^1.2.7"
   },
   "devDependencies": {

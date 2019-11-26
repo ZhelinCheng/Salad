@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 11:00:33
- * @LastEditTime: 2019-11-26 11:49:35
+ * @LastEditTime: 2019-11-26 16:43:01
  * @LastEditors: Zhelin Cheng
  * @Description: 主模块
  */
@@ -18,9 +18,7 @@ import * as rateLimit from 'express-rate-limit'
 import * as helmet from 'helmet'
 
 async function bootstrap() {
-  const app = await NestFactory.create<NestExpressApplication>(AppModule, {
-    cors: true
-  })
+  const app = await NestFactory.create<NestExpressApplication>(AppModule)
 
   app.set('trust proxy', 'loopback')
   app.set('x-powered-by', false)

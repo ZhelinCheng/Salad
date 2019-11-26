@@ -1,12 +1,10 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 11:24:08
- * @LastEditTime: 2019-11-26 13:25:39
+ * @LastEditTime: 2019-11-26 17:39:13
  * @LastEditors: Zhelin Cheng
  * @Description: DTO
  */
-import * as path from 'path'
-import * as fs from 'fs-extra'
 import {
   ValidatorConstraintInterface,
   ValidationArguments,
@@ -17,13 +15,7 @@ import {
   IsIn,
   Validate
 } from 'class-validator'
-
-const pagesPath = path.resolve(__dirname, '../pages')
-let pages = fs.readdirSync(pagesPath)
-
-pages = pages.filter(dir => {
-  return fs.statSync(path.join(pagesPath, dir)).isDirectory()
-})
+import { ROUTER_PAGES } from './const'
 
 @ValidatorConstraint({ name: 'size', async: false })
 class IsSize implements ValidatorConstraintInterface {
@@ -38,7 +30,7 @@ class IsSize implements ValidatorConstraintInterface {
 
 export class BaseParamsDto {
   @IsString()
-  @IsIn(pages.concat(['random']))
+  @IsIn(ROUTER_PAGES.concat(['random']))
   readonly page: string
 
   @IsString()
