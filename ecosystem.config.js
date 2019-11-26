@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-09-23 10:15:33
- * @LastEditTime: 2019-11-26 21:30:03
+ * @LastEditTime: 2019-11-26 22:20:53
  * @LastEditors: Zhelin Cheng
  * @Description: PM2配置文件
  */
@@ -14,7 +14,7 @@ module.exports = {
     instances: 1,
     autorestart: true,
     watch: false,
-    max_memory_restart: '1.4G',
+    max_memory_restart: '1.2G',
     max_restarts: 3,
     env: {
       NODE_ENV: 'production'
