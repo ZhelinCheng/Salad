@@ -2,6 +2,7 @@
 /dist
 /node_modules
 /pages
+/static
 db.json
 
 # Logs

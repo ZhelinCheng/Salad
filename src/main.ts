@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 11:00:33
- * @LastEditTime: 2019-11-27 11:12:52
+ * @LastEditTime: 2019-11-27 17:14:50
  * @LastEditors: Zhelin Cheng
  * @Description: 主模块
  */
@@ -11,6 +11,7 @@ import * as dotenv from 'dotenv'
 // 获取环境变量
 dotenv.config({ path: path.resolve(__dirname, '../.env') })
 
+import * as fs from 'fs'
 import { NestFactory } from '@nestjs/core'
 import { AppModule } from './app.module'
 import { NestExpressApplication } from '@nestjs/platform-express'
@@ -19,7 +20,8 @@ import * as helmet from 'helmet'
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule)
-  app.useStaticAssets(path.resolve(__dirname, '../static/'))
+  const staticPath = path.resolve(__dirname, '../static')
+  if (fs.existsSync(staticPath)) { app.useStaticAssets(staticPath) }
   app.set('trust proxy', 'loopback')
   app.set('x-powered-by', false)
 
