@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 11:00:33
- * @LastEditTime: 2019-11-27 10:40:35
+ * @LastEditTime: 2019-11-27 11:20:57
  * @LastEditors: Zhelin Cheng
  * @Description:
  */
@@ -37,10 +37,5 @@ export class AppController {
     const bufferStream = new stream.PassThrough()
     bufferStream.end(buffer)
     bufferStream.pipe(res)
-  }
-
-  @Get()
-  getTest() {
-    return Date.now()
   }
 }
