@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 11:00:33
- * @LastEditTime: 2019-11-27 10:13:05
+ * @LastEditTime: 2019-11-27 11:12:52
  * @LastEditors: Zhelin Cheng
  * @Description: 主模块
  */
@@ -19,7 +19,7 @@ import * as helmet from 'helmet'
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule)
-
+  app.useStaticAssets(path.resolve(__dirname, '../static/'))
   app.set('trust proxy', 'loopback')
   app.set('x-powered-by', false)
 
