@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 11:00:33
- * @LastEditTime: 2019-11-27 13:22:14
+ * @LastEditTime: 2019-11-27 16:38:48
  * @LastEditors: Zhelin Cheng
  * @Description: 处理程序
  */
@@ -50,7 +50,7 @@ export class AppService {
     }
 
     // 字体宽度大于图片宽度
-    if (fontSize > height) {
+    if (width < 36 || fontSize > height) {
       fontSize = 0
     }
 
