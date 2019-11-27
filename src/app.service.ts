@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 11:00:33
- * @LastEditTime: 2019-11-27 11:09:42
+ * @LastEditTime: 2019-11-27 13:22:14
  * @LastEditors: Zhelin Cheng
  * @Description: 处理程序
  */
@@ -71,7 +71,7 @@ export class AppService {
     const composite: sharp.OverlayOptions[] = []
     if (fontSize >= 12) {
       const attributes = { fill: fontColor, stroke: fontColor }
-      const options = { x: 0, y: 0, fontSize, anchor: 'top', attributes }
+      const options = { x: 0, y: 0, fontSize, anchor: 'top', attributes, letterSpacing: 0.1 }
       const svg = textToSVG.getSVG(size, options)
       composite.push({
         input: Buffer.from(svg)
