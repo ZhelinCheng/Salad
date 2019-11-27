@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 11:24:08
- * @LastEditTime: 2019-11-26 17:39:13
+ * @LastEditTime: 2019-11-27 10:45:25
  * @LastEditors: Zhelin Cheng
  * @Description: DTO
  */
@@ -20,11 +20,11 @@ import { ROUTER_PAGES } from './const'
 @ValidatorConstraint({ name: 'size', async: false })
 class IsSize implements ValidatorConstraintInterface {
   validate(size: string, args: ValidationArguments) {
-    return /^[1-9]\d{1,3}x[1-9]\d{1,3}$/.test(size)
+    return /^1?[0-2]?\d{1,2}x1?[0-2]?\d{1,2}$/.test(size)
   }
 
   defaultMessage(args: ValidationArguments) {
-    return '$value 不正确！'
+    return 'size大小$value不符合规则'
   }
 }
 

@@ -1,7 +1,7 @@
 /*
  * @Author: Zhelin Cheng
  * @Date: 2019-11-26 11:00:33
- * @LastEditTime: 2019-11-26 23:31:52
+ * @LastEditTime: 2019-11-27 11:09:42
  * @LastEditors: Zhelin Cheng
  * @Description: 处理程序
  */
@@ -18,10 +18,6 @@ const db = low(adapter)
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!'
-  }
-
   // 生成sharp
   private convert2Sharp(input: string): sharp.Sharp {
     return sharp(input)
@@ -62,6 +58,9 @@ export class AppService {
   }
 
   async generateImage({ page, size, color = 'ffffff' }) {
+    // TODO: 生成的key
+    // const key = page + size + color
+
     let sizeSplit = size.split(/x|X/)
     sizeSplit = sizeSplit.map((item: string) => parseInt(item, 10))
     // 获取宽高
