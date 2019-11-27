@@ -1,3 +1,10 @@
+/*
+ * @Author: Zhelin Cheng
+ * @Date: 2019-11-26 11:00:33
+ * @LastEditTime: 2019-11-27 13:08:43
+ * @LastEditors: Zhelin Cheng
+ * @Description: 测试
+ */
 import { Test, TestingModule } from '@nestjs/testing'
 import { AppController } from './app.controller'
 import { AppService } from './app.service'
@@ -14,9 +21,9 @@ describe('AppController', () => {
     appController = app.get<AppController>(AppController)
   })
 
-  describe('root', () => {
+  /* describe('root', () => {
     it('should return "Hello World!"', () => {
       expect(appController.getHello()).toBe('Hello World!')
     })
-  })
+  }) */
 })
