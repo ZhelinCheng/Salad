@@ -20,9 +20,9 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@nestjs/common": "6.10.2",
-    "@nestjs/core": "6.10.2",
-    "@nestjs/platform-express": "6.10.2",
+    "@nestjs/common": "6.10.11",
+    "@nestjs/core": "6.10.11",
+    "@nestjs/platform-express": "6.10.11",
     "@types/fs-extra": "8.0.1",
     "@types/lowdb": "1.0.9",
     "@types/sharp": "0.23.1",
@@ -44,22 +44,22 @@
     "ts-md5": "1.2.7"
   },
   "devDependencies": {
-    "@nestjs/cli": "6.12.2",
+    "@nestjs/cli": "6.12.9",
     "@nestjs/schematics": "6.7.6",
-    "@nestjs/testing": "6.10.2",
+    "@nestjs/testing": "6.10.11",
     "@types/express": "4.17.2",
     "@types/jest": "24.0.23",
-    "@types/node": "12.12.18",
+    "@types/node": "12.12.20",
     "@types/supertest": "2.0.8",
     "jest": "24.9.0",
     "prettier": "1.19.1",
     "supertest": "4.0.2",
     "ts-jest": "24.2.0",
     "ts-loader": "6.2.1",
-    "ts-node": "8.5.2",
+    "ts-node": "8.5.4",
     "tsconfig-paths": "3.9.0",
     "tslint": "5.20.1",
-    "typescript": "3.7.2"
+    "typescript": "3.7.3"
   },
   "jest": {
     "moduleFileExtensions": [
