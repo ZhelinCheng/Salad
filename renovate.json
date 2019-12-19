@@ -1,15 +1,8 @@
 {
-  "packageRules": [
-    {
-      "updateTypes": [
-        "minor",
-        "patch",
-        "pin",
-        "digest"
-      ],
-      "automerge": true
-    }
-  ],
+  "automerge": true,
+  "automergeType": "pr",
+  "automergeComment": "bors: r+",
+  "requiredStatusChecks": null,
   "extends": [
     "config:base"
   ]
