@@ -39,7 +39,7 @@
     "reflect-metadata": "0.1.13",
     "rimraf": "3.0.2",
     "rxjs": "6.5.4",
-    "sharp": "0.24.1",
+    "sharp": "0.25.0",
     "text-to-svg": "3.1.5",
     "ts-md5": "1.2.7"
   },
