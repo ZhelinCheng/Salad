@@ -5,5 +5,12 @@
   "requiredStatusChecks": null,
   "extends": [
     "config:base"
+  ],
+  "packageRules": [
+    {
+      "excludePackageNames": [
+        "minipass"
+      ]
+    }
   ]
 }
