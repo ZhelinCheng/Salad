@@ -9,7 +9,8 @@
   "packageRules": [
     {
       "excludePackageNames": [
-        "minipass"
+        "minipass",
+        "sharp"
       ]
     }
   ]

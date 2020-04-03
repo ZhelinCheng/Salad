@@ -19,9 +19,6 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
-  "resolutions": {
-    "minipass": "2.7.0"
-  },
   "dependencies": {
     "@nestjs/common": "7.0.7",
     "@nestjs/core": "7.0.7",
@@ -41,10 +38,11 @@
     "lowdb": "1.0.0",
     "reflect-metadata": "0.1.13",
     "rimraf": "3.0.2",
-    "rxjs": "6.5.5",
-    "sharp": "0.25.2",
+    "rxjs": "6.5.4",
     "text-to-svg": "3.1.5",
-    "ts-md5": "1.2.7"
+    "ts-md5": "1.2.7",
+    "minipass": "2.7.0",
+    "sharp": "^0.23.0"
   },
   "devDependencies": {
     "@nestjs/cli": "7.1.2",
