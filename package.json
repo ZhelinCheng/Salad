@@ -41,7 +41,7 @@
     "lowdb": "1.0.0",
     "reflect-metadata": "0.1.13",
     "rimraf": "3.0.2",
-    "rxjs": "6.5.4",
+    "rxjs": "6.5.5",
     "sharp": "0.25.2",
     "text-to-svg": "3.1.5",
     "ts-md5": "1.2.7"
