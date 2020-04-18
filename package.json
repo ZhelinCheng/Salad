@@ -28,7 +28,7 @@
     "@types/sharp": "0.24.0",
     "cache-manager": "3.2.1",
     "class-transformer": "0.2.3",
-    "class-validator": "0.12.0",
+    "class-validator": "0.12.1",
     "cross-env": "7.0.2",
     "dotenv": "8.2.0",
     "express-rate-limit": "5.1.1",
