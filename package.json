@@ -42,7 +42,7 @@
     "text-to-svg": "3.1.5",
     "ts-md5": "1.2.7",
     "minipass": "2.7.0",
-    "sharp": "0.25.3"
+    "sharp": "0.25.4"
   },
   "devDependencies": {
     "@nestjs/cli": "7.2.0",
