@@ -25,7 +25,7 @@
     "@nestjs/platform-express": "7.3.2",
     "@types/fs-extra": "9.0.1",
     "@types/lowdb": "1.0.9",
-    "@types/sharp": "0.25.0",
+    "@types/sharp": "0.25.1",
     "cache-manager": "3.3.0",
     "class-transformer": "0.2.3",
     "class-validator": "0.12.2",
