@@ -38,7 +38,7 @@
     "lowdb": "1.0.0",
     "reflect-metadata": "0.1.13",
     "rimraf": "3.0.2",
-    "rxjs": "6.6.0",
+    "rxjs": "6.6.1",
     "text-to-svg": "3.1.5",
     "ts-md5": "1.2.7",
     "minipass": "2.7.0",
