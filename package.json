@@ -23,7 +23,7 @@
     "@nestjs/common": "7.4.4",
     "@nestjs/core": "7.4.4",
     "@nestjs/platform-express": "7.4.4",
-    "@types/fs-extra": "9.0.1",
+    "@types/fs-extra": "9.0.2",
     "@types/lowdb": "1.0.9",
     "@types/sharp": "0.26.0",
     "cache-manager": "3.4.0",
